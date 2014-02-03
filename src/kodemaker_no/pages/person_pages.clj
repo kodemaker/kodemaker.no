@@ -87,6 +87,27 @@
   (list [:h2 (str (:genitive person) " Referanser")]
         (map render-endorsement endorsements)))
 
+
+(defn- render-presence-item [item]
+  [:li
+   [:a {:href (str (:baseUrl item) "/" (:nick item))}
+    [:img {:src (str "/logos/" (:logo item)) :title (:title item)}]]])
+
+(defn- render-presence [presence]
+  [:ul.logoList
+    (when-let [cv (-> presence :cv)]
+      (render-presence-item {:baseUrl "http://www.kodemaker.no/cv" :nick cv :logo "cv-24.png" :title "Cv"}))
+    (when-let [li (-> presence :linkedin)]
+      (render-presence-item {:baseUrl "http://www.linkedin.com" :nick li :logo "linkedin-24.png" :title "LinkedIn"}))
+    (when-let [tw (-> presence :twitter)]
+      (render-presence-item {:baseUrl "http://www.twitter.com" :nick tw :logo "twitter-24.png" :title "Twitter"}))
+    (when-let [so (-> presence :stackoverflow)]
+      (render-presence-item {:baseUrl "http://www.stackoverflow.com" :nick so :logo "stackoverflow-24.png" :title "StackOverflow"}))
+    (when-let [gh (-> presence :github)]
+      (render-presence-item {:baseUrl "http://github.com" :nick gh :logo "github-24.png" :title "GitHub"}))
+    (when-let [cw (-> presence :coderwall)]
+      (render-presence-item {:baseUrl "http://www.coderwall.com" :nick cw :logo "coderwall-24.png" :title "Coderwall"}))])
+
 (defn- render-aside [person]
   [:div.tight
    [:h4 (:full-name person)]
@@ -94,7 +115,9 @@
     (:title person) "<br>"
     [:span.nowrap (:phone-number person)] "<br>"
     [:a {:href (str "mailto:" (:email-address person))}
-     (:email-address person)]]])
+       (:email-address person)]]
+    (if (seq (:presence person))
+      (render-presence (:presence person)))])
 
 (defn- maybe-include [person kw f]
   (when (kw person)

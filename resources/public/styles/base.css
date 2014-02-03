@@ -73,6 +73,9 @@ h4 {font-weight: bold;}
 .aside, .body {line-height: 1.7;}
 .tight {line-height: 1.4;}
 
+.logoList li {background-color: #d30707; margin-bottom: 10px; float:left; margin-right:2px;}
+
+
 q {color: #666;}
 q:before {content: "“"}
 q:after {content: "”"}

@@ -13,6 +13,7 @@
    :phone-number "+47 918 56 425"
    :email-address "magnar@kodemaker.no"})
 
+
 (defn page [& {:as extras}]
   (((person-pages [(merge magnar extras)]) "/magnar/")))
 
@@ -26,7 +27,8 @@
                               "Framsieutvikler" "<br>"
                               [:span.nowrap "+47 918 56 425"] "<br>"
                               [:a {:href "mailto:magnar@kodemaker.no"}
-                               "magnar@kodemaker.no"]]])
+                               "magnar@kodemaker.no"]]
+                              nil])
 
 (fact (->> (page :recommendations [{:title "Anbefaling 1"
                                     :blurb "Denne er **bra**."
@@ -93,3 +95,11 @@
                  [:p "Jeg tegner og forteller. "
                   [:a.nowrap {:href "http://vimeo.com/28764670"} "Se video"] " "
                   [:a.nowrap {:href "https://github.com/magnars/server-facade"} "Se koden"]]]]))
+
+(fact (->> (page :presence {:twitter "magnars"})
+           :aside last html)
+
+     => (html [:ul.logoList
+               [:li
+                [:a {:href "http://www.twitter.com/magnars"}
+                 [:img {:src "/logos/twitter-24.png" :title "Twitter"}]]]]))
