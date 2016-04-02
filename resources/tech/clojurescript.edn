@@ -1,6 +1,5 @@
 {:id :clojurescript
  :name "ClojureScript"
- :illustration "/photos/tech/clojure.svg"
  :site "https://github.com/clojure/clojurescript"
  :description "ClojureScript er en kompilator for [Clojure](/clojure/)
  med [JavaScript](/javascript/) som target-plattform. Med andre ord

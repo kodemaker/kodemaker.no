@@ -117,11 +117,10 @@ utgangpunktet hadde ambisjoner om å få til.
 /javascript/                       /photos/tech/js.svg
 /august/                           /photos/people/august/side-profile-square.jpg
 /stian/                            /photos/people/stian/side-profile-square.jpg
-/clojure/                          /photos/tech/clojure.svg
+/stig/                             /photos/people/stig/side-profile-square.jpg
 /nodejs/                           /photos/tech/nodejs-wide.jpg 2x
 /stein-tore/                       /photos/people/stein-tore/side-profile-square.jpg
 /react/                            /photos/tech/react.png
-/stig/                             /photos/people/stig/side-profile-square.jpg
 /anders/                           /photos/people/anders/side-profile-square.jpg
 /kristian/                         /photos/people/kristian/side-profile-square.jpg
 /kjetil/                           /photos/people/kjetil/side-profile-square.jpg
