@@ -1,6 +1,5 @@
 {:id :clojure
  :name "Clojure"
- :illustration "/photos/tech/clojure.svg"
  :site "http://clojure.org/"
  :description
  "Clojure er en Lisp-dialekt som kjører på JVM-en (i tillegg til CLR-en og
