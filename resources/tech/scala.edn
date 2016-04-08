@@ -8,7 +8,7 @@
   betyr at en slipper å skrive typer over alt. Dette gjør at språket ser dynamisk ut, selv med en
   streng kompilator.
 
-  Scala har tatt mye lærdom og inspirasjon fra andre språk, funskjonell programmering fra blant annet
+  Scala har tatt mye lærdom og inspirasjon fra andre språk, funksjonell programmering fra blant annet
   Scheme, ML og Haskell, og objekt-orientering fra blant annet Smalltalk og Java.
 
   Selv om språket er annerledes, synes de fleste det er relativt enkelt å komme i gang med, da en i
