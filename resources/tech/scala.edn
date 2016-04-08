@@ -1,0 +1,20 @@
+{:id :scala
+ :name "Scala"
+ :illustration "/illustrations/references/scala_partition.png"
+ :site "http://scala-lang.org/"
+ :description
+ "Scala er et funksjonelt og objekt-orientert språk som kjører på JVM'en. Det er et statisk typet
+  språk som har et mye sterkere typesystem enn Java. I tillegg har språket sterk type-inferens som
+  betyr at en slipper å skrive typer over alt. Dette gjør at språket ser dynamisk ut, selv med en
+  streng kompilator.
+
+  Scala har tatt mye lærdom og inspirasjon fra andre språk, funksjonell programmering fra blant annet
+  Scheme, ML og Haskell, og objekt-orientering fra blant annet Smalltalk og Java.
+
+  Selv om språket er annerledes, synes de fleste det er relativt enkelt å komme i gang med, da en i
+  stor grad kan programmere \"sånn man er vant til\". Samtidig gir språket stor rom for læring, slik
+  at en etter hvert kan bli bedre i funksjonell programmering."
+ :ad {:heading "Ønsker du rådgivning om Scala?"
+      :blurb "Vi har flere dyktige konsulenter som brenner for Scala.
+              Vi hjelper deg å ta de riktige valgene."
+      :link-text "Ta kontakt!"}}
