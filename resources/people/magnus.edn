@@ -34,14 +34,14 @@
                             med utenforstående på mer forståelige termer. Etter å ha sett denne fikk jeg endelig lyst til å kikke på et typet funksjonelt språk."}
                    {:title "Test-driven JavaScript Development"
                     :link {:url "http://ndc2011.macsimum.no/mp4/Day1%20Wednesday/Track5%201620-1720.mp4"
-                        :text "Se foredraget"}
+                           :text "Se foredraget"}
                     :tech [:javascript :testing :design]
                     :blurb "Dette foredraget av [Christian Johansen](/christian/)
                             var en grunnene til at jeg i stor grad kastet jQuery-scripting på båten. En inspirerende og lærerik testdrevet sesjon hvor man lager en autocomplete-komponent." }]
  :hobbies [{:title "Fluefiske"
             :description "Du går langs en deilig elv omringet av
              flott norsk natur. I sidesynet ser du plutselig en liten uregelmessighet i vannoverflaten. Du stopper for å kikke. Etter en liten stund ser du en ørret som forsiktig stiger til overflaten og slurper i seg en liten døgnflue. Pulsen stiger, du skifter flue og navigerer deg forsiktig i posisjon for å kaste ..."
-             :illustration "/illustrations/hobbies/fluefiske-magnus.jpg"
+            :illustration "/illustrations/hobbies/fluefiske-magnus.jpg"
             :url "http://rundis.smugmug.com/Fisketurer"}]
 
  :side-projects [{:title "Light Table"
@@ -129,7 +129,6 @@
                   :tech [:gradle :groovy]
                   :urls {:video "http://vimeo.com/49375218"}
                   :date "2012-09-13"}]
-
 
  :blog-posts [{:url "http://rundis.github.io/blog/2017/elm_bootstrap_launch.html"
                :title "Introducing Elm Bootstrap"
@@ -291,42 +290,42 @@
                        fikk jeg mer om mer sansen for Groovy."
                :tech [:groovy]}]
 
- :open-source-projects[{:url "https://github.com/rundis/elm-bootstrap"
-                        :name "Elm Bootstrap"
-                        :description "Elm bibliotek for å lage responsive webapplikasjoner med Twitter Bootstrap 4."
-                        :tech [:elm :bootstrap]}
-                       {:url "https://github.com/rundis/elm-light"
-                        :name "Elm Light Table Plugin"
-                        :description "Light Table plugin for Elm. Syntax-highlighting, repl/inline eval, elm reactor integrasjon mm"
-                        :tech [:elm :clojurescript]}
-                       {:url "https://github.com/rundis/rewrite-cljs"
-                        :name "rewrite-cljs"
-                        :description "ClojureScript port av rewrite-clj. Bibliotek for traversering og omskriving av Clojure/ClojureScript/EDN- kode"
-                        :tech [:clojure :clojurescript]}
-                       {:url "https://github.com/rundis/clj-light-refactor"
-                        :name "Clj-Light-Refactor"
-                        :description "Plugin som gir Clojure refactoring support til Light Table"
-                        :tech [:lighttable :clojure :clojurescript]}
-                       {:url "https://github.com/rundis/AsciiLight"
-                        :name "AsciiLight"
-                        :description "Light Table plugin for live-edit visning av Asiidoctor dokumenter"
-                        :tech [:lighttable :clojurescript :asciidoc]}
-                       {:url "https://github.com/rundis/lt-snippets"
-                        :name "lt-snippets"
-                        :description "Snippet/templates plugin for Light Table"
-                        :tech [:lighttable :clojurescript]}
-                       {:url "https://github.com/busterjs/lt-instabuster"
-                        :name "LightTable InstaBuster"
-                        :description "Light Table plugin for BusterJS"
-                        :tech [:lighttable :javascript :clojurescript]}
-                       {:url "https://github.com/rundis/LightTable-Groovy"
-                        :name "LightTable-Groovy"
-                        :description "Groovy plugin for Light Table. Steg 1 er å lage et langt bedre Groovy Console. Steg 2 er helt åpent. Sky's the limit!"
-                        :tech [:lighttable :groovy :clojurescript]}
-                       {:url "https://github.com/rundis/gradle-buster-plugin"
-                        :name "gradle-buster-plugin"
-                        :description "Gradle plugin for å kjøre JavaScript tester via BusterJS i jvm prosjekter"
-                        :tech [:groovy :gradle :buster-js :javascript]}]
+ :open-source-projects [{:url "https://github.com/rundis/elm-bootstrap"
+                         :name "Elm Bootstrap"
+                         :description "Elm bibliotek for å lage responsive webapplikasjoner med Twitter Bootstrap 4."
+                         :tech [:elm :bootstrap]}
+                        {:url "https://github.com/rundis/elm-light"
+                         :name "Elm Light Table Plugin"
+                         :description "Light Table plugin for Elm. Syntax-highlighting, repl/inline eval, elm reactor integrasjon mm"
+                         :tech [:elm :clojurescript]}
+                        {:url "https://github.com/rundis/rewrite-cljs"
+                         :name "rewrite-cljs"
+                         :description "ClojureScript port av rewrite-clj. Bibliotek for traversering og omskriving av Clojure/ClojureScript/EDN- kode"
+                         :tech [:clojure :clojurescript]}
+                        {:url "https://github.com/rundis/clj-light-refactor"
+                         :name "Clj-Light-Refactor"
+                         :description "Plugin som gir Clojure refactoring support til Light Table"
+                         :tech [:lighttable :clojure :clojurescript]}
+                        {:url "https://github.com/rundis/AsciiLight"
+                         :name "AsciiLight"
+                         :description "Light Table plugin for live-edit visning av Asiidoctor dokumenter"
+                         :tech [:lighttable :clojurescript :asciidoc]}
+                        {:url "https://github.com/rundis/lt-snippets"
+                         :name "lt-snippets"
+                         :description "Snippet/templates plugin for Light Table"
+                         :tech [:lighttable :clojurescript]}
+                        {:url "https://github.com/busterjs/lt-instabuster"
+                         :name "LightTable InstaBuster"
+                         :description "Light Table plugin for BusterJS"
+                         :tech [:lighttable :javascript :clojurescript]}
+                        {:url "https://github.com/rundis/LightTable-Groovy"
+                         :name "LightTable-Groovy"
+                         :description "Groovy plugin for Light Table. Steg 1 er å lage et langt bedre Groovy Console. Steg 2 er helt åpent. Sky's the limit!"
+                         :tech [:lighttable :groovy :clojurescript]}
+                        {:url "https://github.com/rundis/gradle-buster-plugin"
+                         :name "gradle-buster-plugin"
+                         :description "Gradle plugin for å kjøre JavaScript tester via BusterJS i jvm prosjekter"
+                         :tech [:groovy :gradle :buster-js :javascript]}]
 
  :open-source-contributions [{:name "node-test-runner"
                               :url "https://github.com/rtfeldman/node-test-runner"
@@ -338,4 +337,337 @@
                               :url "https://github.com/int128/gradle-ssh-plugin"
                               :tech [:groovy :gradle]}]
 
+ :projects [{:customer "(Konfidensielt)"
+             :years [2018 :ongoing]
+             :employer :kodemaker
+             :summary "Utvikling av nytt spillkonsept knyttet til Dart."
+             :description "Utvikling av nytt spillkonsept knyttet til Dart."
+             :tech [:clojure :clojurescript :python]}
+            {:customer "Oiiku"
+             :years [2017]
+             :employer :kodemaker
+             :summary "Utvikling av bordplasseringmodul for \"smart\" automatisk plassering av tusenvis av deltagere."
+             :description "Utvikling av bordplasseringsmodul til Event
+             håndteringssystem. Bordplasseringen skulle kunne effektiv plassere
+             1000vis av deltakere effektivt samt balansere diverse
+             konfigurerbare kriterier. Oppgaver: Utvikling av backend tjenester
+             og integrasjon mot kjernemoduler i eventsystemet. Finne best mulig
+             løsning for å løse det NP komplette problemet å automatisk best
+             mulig plassere 1000vis av deltakere på tvers av 100vis av bord.
+             Rolle: Seniorutvikler"
+             :tech [:clojure :kotlin :angularjs :ansible :datomic :mongodb :gradle :teamcity]}
+            {:customer "Aprila Bank"
+             :years [2017]
+             :employer :kodemaker
+             :summary "Etablering og utvikling av tjenster for en ny bank for B2B markedet."
+             :description "Utvikling av tjenster/produkter for ny B2B bank.
+             Startup som har som mål å tilby banktjenester til små og
+             mellomstore bedrifter på en helt ny og spennend måte. Oppgaver:
+             Integrasjon mot diverse 3.parts løsninger, etablering av
+             mikrotjenster, teknologievalueringer, frontend utvikling,
+             automatisert testing mm. Roller: Seniorutvikler"
+             :tech [:kotlin :elm :postgresql :google-cloud :gitlab :kubernetes :rust :aws]}
+            {:customer "Animalia - Dyrehelseportalen"
+             :years [2016]
+             :employer :kodemaker
+             :summary "Utvikling av applikasjon til veterinærer og produsenter for registrering av medisinering og helserelatert informasjon"
+             :description "Utvikling av applikasjon til veterinærer og
+             produsenter for registrering av medisinering og helserelatert
+             informasjon. Prosjektet er en omskrivning/nyutvikling av en
+             eksisterende applikasjon til en moderne responsiv webapplikasjon.
+             Første versjon av ny applikasjon gikk i produksjon i Januar 2017 og
+             er nå under kontinuerlig videreutvikling. Oppgaver: Analyse, design
+             og full-stack utvikling av en mikrotjeneste-basert arkitektur med
+             flere sluttbruker-applikasjoner. Roller: Seniorutvikler"
+             :tech [:clojure :clojurescript :re-frame :docker :oracle :sql-server :elastic-search
+                    :docker :docker-cloud :bootstrap :jenkins]}
+            {:customer "Animalia - Vedlikehold og videreutvikling"
+             :years [2015]
+             :employer :kodemaker
+             :summary "Vedlikehold og videreutvikling av flere av de eksisterende Grails applikasjonene i Animalia"
+             :description "Vedlikehold og videreutvikling av flere av de
+             eksisterende Grails applikasjonene i Animalia. Oppgaver: Utvikling,
+             bugfixing, refaktorering og arkitetekturarbeide med tanke på
+             applikasjonenes levetid Roller: Seniorutvikler"
+             :tech [:grails :groovy :oracle :docker :javascript]}
+            {:customer "Animalia - Helsegris"
+             :years [2014]
+             :employer :kodemaker
+             :summary "Utvikling av ny applikasjon for oppfølging av dyrehelse for griser"
+             :description "Utvikling av ny applikasjon for oppfølging av
+             dyrehelse for griser. Det er også et mål for prosjektet å lage
+             endel gjenbrukbare tjenester Oppgaver: Utvikling, mentoring og
+             veiledning på utvikling av tjenestearkitekturer Roller:
+             Seniorutvikler og Mentor"
+             :tech [:clojure :clojurescript :docker :ansible :bootstrap :reactjs :busterjs
+                    :jenkins :oracle]}
+            {:customer "Animalia - Sauekontrollen"
+             :years [2013]
+             :employer :kodemaker
+             :summary "Full-stack utvikling i Grails"
+             :description "Full-stack utvikling i Grails. Prosjektekspert på
+             JavaScript/TDD og provisjonering (Ansible). Rolle: Seniorutvikler"
+             :tech [:grails :groovy :jquery :bootstrap :ansible :busterjs :oracle :tomcat :jenkins :git :spock]}
+            {:customer "Animalia - Storfekjøttkontrollen"
+             :years [2012]
+             :employer :kodemaker
+             :summary "Hjelpe til med transformasjon og utvidelsen av eksisterende systemer til moderne web-teknologi basert på Java-platformen"
+             :description "Animalia er et fagmiljø for kjøtt og eggbransen.
+             Animalia tilbyr verdikjedesystemer til bønder og deres rådgivere.
+             Man har en klar strategi om å tilby gode og moderne
+             selvbetjeningsløsninger på web. Magnus er leid inn for å hjelpe til
+             med transformasjon og utvidelsen av eksisterende systemer til
+             moderne web-teknologi basert på Java-platformen. Oppgaver: Utvikling
+             av frontend og backend for nytt system. Mentoring i smidig
+             utvikling. Mentoring av fastansatte/nyansatte i moderne
+             systemutvikling Roller: Seniorutvikler, Mentor systemutvikling"
+             :tech [:grails :groovy :jquery :bootstrap :oracle :tomcat :jenkins :git :spock]}
+            {:customer "Storebrand Aktuarsystemer"
+             :years [2011]
+             :employer :kodemaker
+             :summary "Utvikling av ny funksjonalitet og arkitekturforbedringer i pensjonskassesystem for store offentlige og private kunder"
+             :description "Storebrand Aktuarsystemer er et datterselskap i
+             Storebrand konsernet. De har utviklet et pensjonskassesystem som
+             håndterer pensjonskasser for store norske kunder. Man har et stadig
+             økende behov for å utvikle ny funksjonalitet i et raskere tempo.
+             Samtidig har man også opparbeidet endel teknisk gjeld. Magnus er
+             leid inn i første rekke som seniorutvikler på java delen av
+             løsningen Oppgaver: Utvikling av ny funksjonalitet i Java, Pl/SQL
+             og noe .Net. SCRUM mentoring og mentoring på best practices innen
+             systemutvikling generelt. Forbedring av eksisterende
+             utviklingsprosess, bistand med innføring av nye produktive verktøy
+             og disipliner. Roller: Senior Java Utvikler, Prosessforbedrer"
+             :tech [:java :plsql :gradle :teamcity :svn :dotnet :junit :apache-camel :spring :oracle]}
+            {:customer "Forsvaret FLO/IKT"
+             :years [2010]
+             :employer :kodemaker
+             :summary "Utvikling av proxyløsning for WebService kall over ustabile nettverk"
+             :description "FLO/IKT holder for tiden på med en svært omfattende
+             SOA implementering. En av utfordringene i forsvaret er at man har
+             mange nettverk med lav båndbredde og/eller ustabile forbindelser.
+             Man er derfor i gang med å utvikle en proxy basert løsning for å
+             håndtere webservice kall også i denne type nettverk. Denne
+             løsningen ser man for seg vi bli en viktig komponent i SOA
+             arkitekturen. Oppgaver: Basert på en spesifikasjon og
+             referansemplementasjon fra Forsvaret forskningsinstitutt var Magnus
+             sin oppgave å lage en produkuksjonsklar første versjon som skal
+             integreres i SOA arkitekturen. Roller: Arkitekt og Senior Java
+             Utvikler"
+             :tech [:soap :webservices :netty :udp :tcp :java :jmx :jaxb :saaj :swing-admin-console
+                    :gradle :svn :hudson :confluence :jira :grasshopper]}
+            {:customer "Telenor Mobil"
+             :years [2009]
+             :employer :kodemaker
+             :summary "Oppgradering av mellomvareplatform (COS)"
+             :description "Oppgradering av mellomvareplattform (COS).
+             Oppgradering av Java4-Java6, weblogic8-weblogic10, maven1-gradle
+             Oppgaver: Scrum assistanse, Utvikling av webservices, porting av
+             biblioteker, weblogic konfigurasjon, ytelsestesting, byggesystem
+             analyse og migrering Roller: Senior Java Utvikler"
+             :tech [:weblogic :java :maven :gradle :mks :junit :easymock :xfire :axis
+                    :bamboo :cygwin :grinder :j2ee :spring]}
+            {:customer "Forsvaret FLO/IKT"
+             :years [2008 2009]
+             :employer :kodemaker
+             :summary "Modernisering og videreutvikling av fagapplikasjoner for dokumenthåndtering"
+             :description "Modernisering av fagapplikasjoner for
+             dokumenthåndtering/rapporthåndtering til Web 2.0 Oppgaver:
+             Kravstyring, Arkitekturevaluering, Utvikling på alle
+             applikasjonslag, ytelsestesting, mentoring. Roller: Senior Java
+             Utvikler / SCRUM Master / Mentor."
+             :tech [:java :tapestry :spring :hibernate :lucene :hibernate-search :tomcat :apache
+                    :maven :hudson :easymock :svn :jira :confluence]}
+            {:customer "Nordic Lottery Systems"
+             :years [2006 2007 2008]
+             :employer :kodemaker
+             :summary "Internettspill"
+             :description "Utvikling av nytt internettspill med svært høye
+             oppetids og ytelseskrav Oppgaver: Requirements Managament (user
+             stories og use cases), DDD, Design og utvikling av JEE komponenter,
+             Team admin, Ytelsesoptimlisering Roller: Senior Java Utvikler /
+             Kravansvarlig"
+             :tech [:java :spring :jboss :jboss-portal :jboss-messaging :jbossws :hibernate
+                    :apache :postgresql :oracle :flash :quartz :maven :ant :junit :junitee :easymock
+                    :contestj :aop :cruise-control :eclipse :intellij :cvs :jira :confluence]}
+            {:customer "EDB ASA"
+             :years [2005]
+             :employer :kodemaker
+             :summary "Migrering av driftsmiljø for Storebrand"
+             :description "Migrering av driftsmiljø for Storebrand Oppgaver:
+             Ekspertråd, assistanse, \"troubleshooting\", konfigurasjon,
+             performance tuning, mentoring, dokumentasjon Roller: Websphere
+             Ekspert"
+             :tech [:websphere :mq-series :domino :db2 :mssql :oracle]}
+            {:customer "Trygge barnehager"
+             :years [2004 2005]
+             :employer :kodemaker
+             :summary "Utvikling av ASP-tjenester"
+             :description "Utvikling av ASP tjenester for barnehagesektoren.
+             Omfattet tjenester innen; opptak, økonomi, hjemmeside og kvalitet i
+             barnehager Oppgaver: Etablering av IT arkitektur mål og plan,
+             Teknisk ansvarling mot outsourcings leverandør,
+             teknologievalueringer, rådgivning på prosess og metode Roller:
+             Arkitekt, technical lead"
+             :tech [:dotnet :visual-studio :csharp :sql-server-2000 :sql-reporting-services
+                    :ms-exchange :dashboard-portal]}
+            {:customer "IBM Danmark"
+             :years [2003]
+             :employer :kodemaker
+             :summary "Virk.DK, felles G2B portal for danske myndigheter"
+             :description "Virk.DK prosjektet er resultatet av en stor satsning
+             fra den danske stat for å realisere en G2B portal, hvor
+             virksomheter etterhvert skal kunne foreta all kommunikasjon med
+             myndighetene elektronisk. Oppgaver: Design/utvikling av
+             arbeidsflyter, utvikling av portlets, digitale signaturer Roller:
+             Senior utvikler og designer"
+             :tech [:j2ee :ejb :websphere-portal :tivoli :db2 :secureway-directory-stellent-cms
+                    :adobe-reachform :webservices :pki :ant :log4j :junit :cvs :xerces
+                    :xalan :websphere-studio]}
+            {:customer "Pwc internt"
+             :years [2002 2003]
+             :employer :pwc-england
+             :summary "CRM Implementasjon"
+             :description "CRM Implementasjon. Virksomhetskritisk prosjekt med
+             målsetning å konsolidere all kunde-og kontaktinformasjon for PWC UK
+             til en sentralisert kilde. Prosjektet var en PeopleSoft 8.8
+             implementasjon og hadde en mengde grensesnitt til firmaets
+             kjernesystemer Oppgaver: Arkitektur governance, Design/utvikling av
+             portlets, integrasjon mot SSO, design og utvikling av
+             integrasjonsgrensesnitt Rolle: Teknisk arkitekt."
+             :tech [:peoplesoft-crm :websphere :mqseries-integrator :siteminder
+                    :epicentric-portal :java :j2ee :xml :xslt :soap :jbuilder]}
+            {:customer "Pwc internt"
+             :years [2002 2003]
+             :employer :pwc-england
+             :summary "Risk Managment Reporting"
+             :description "Risk Managment Reporting, System for distribuert
+             analyse og rapportering av risiko vurdering internt i firmaet.
+             Systemet hadde hovedsaklig partnere som brukergruppe, og blir
+             benyttet globalt Oppgaver: Analyse/design, koordinering mot indisk
+             outsourcet team, arkitekturprototype, databasedesign Rolle:
+             Arkitekt og Team leder"
+             :tech [:iis :complus :mssql :rational-suite :asp :visual-basic :xml :xslt
+                    :siteminder :epicentric-portal]}
+            {:customer "Pwc internt"
+             :years [2002]
+             :employer :pwc-england
+             :summary "Virksomhetsportal"
+             :description "Virksomhetsportal, Portalløsning for alle firmaets
+             ansatte i Storbrittania. Portalen tilbyr en samlet personlisert
+             brukerflate og aksess til de fleste av firmaets kritiske systemer.
+             En viktig suksessfaktor for systemet var innføring av en
+             SSO (Single Sign-On) infrastruktur Oppgaver: Rådgivning integrasjon
+             mot portal, rådgivning integrasjon mot SSO, design og utvikling av
+             portlets Rolle: Integrasjonskonsulent"
+             :tech [:epicentric-portal :websphere :siteminder :iplanet-enterprise-directory
+                    :verity-search :oracle :db2 :mssql :notes :iis :mqseries :java :j2ee
+                    :asp :xml :xslt :xmlspy :eclipse :rational-suite]}
+            {:customer "HM C&E - Engelske tolldirektoratet"
+             :years [2001 2002]
+             :employer :net-professionals-uk
+             :summary "G2B Portal for engelske tollvesenet"
+             :description "G2B Portal. eEnabling av tjenester fra
+             tolldirektoratet mot publikum og bedrifter Oppgaver: Governance,
+             Analyse/Design, Team ledelse og utvikling Rolle: Strategisk
+             arkitekt/designer."
+             :tech [:architecture]}
+            {:customer "Storebrand"
+             :years [2000 2001]
+             :employer :objectware
+             :summary "Råd på nett, Unit Linked"
+             :description "Utvikling av tjenester for Storebrands nettbank
+             Oppgaver: Team ledelse, OOAD, utvikling og mentoring Rolle:
+             Arkitekt og Team leder"
+             :tech [:java :j2ee :websphere :visual-age :notes :togetherj :junit :xalan :xerces :xml :xslt :db2]}
+            {:customer "Aftenposten"
+             :years [1999 2000]
+             :employer :objectware
+             :summary "Elektronisk innkjøpssystem"
+             :description "Elektronisk innkjøpssystem Oppgaver: Team ledelse,
+             OOAD og utvikling Rolle: Arkitekt"
+             :tech [:visual-basic :ms-dna :mssql :iis :asp :mts :complus :ms-market
+                    :site-server-commerce :rational-rose :rup]}
+            {:customer "Domino DA"
+             :years [1999]
+             :employer :objectware
+             :summary "Bonuspoengsystem"
+             :description "Bonuspoengsystem Oppgaver: Rådgivning, Team ledelse,
+             OOAD og utvikling Rolle: Arkitekt"
+             :tech [:ms-dna :mts :mq-series :oracle :agresso :plsql :complus :visual-basic
+                    :rational-rose :erwin]}
+            {:customer "Telnor bedrift"
+             :years [1997 1998 1999]
+             :employer :objectware
+             :summary "Fakturagrunnlagssystem"
+             :description "Fakturagrunnlagssystem. System for prising av telenor
+             bedrifts datatjenester Oppgaver: Design, utvikling, kravanalyse og
+             testing Rolle: Arkitekt, designer, utvikler"
+             :tech [:windows :hpunix :visual-basic :complus :sybase :rational-rose :erwin :dbartisan]}]
+
+ :endorsements [{:author "Simon Herberg"
+                 :title "Architect, Telenor"
+                 :quote "Karl Magnus was part of a team that upgraded our JAVA
+                and Weblogic software. In addition he was the driving force
+                behind the replacement of Maven 1.x with Gradle for our build
+                system. He worked well both within the team and on individual
+                tasks."}
+                {:author "Mitul Thobhani"
+                 :title "Owner and Co-Founder, Portfolio Software Limited"
+                 :quote "Magnus is one of those rare individuals who has the
+                ability to understand a concept at the high level as well as the
+                implementation minutia at the same time. His skills and deep
+                experience in software architecture along with his professional,
+                patient and calm nature allowed me to gain not only the
+                information needed about the project on which we worked, but
+                insights and inspiration in the more general field of software
+                development."}
+                {:author "Norman Katz"
+                 :title "Development Director, Nordic Lottery Systems"
+                 :quote "When I joined NLS Magnus was the person to go to to get
+                 answers to any and all questions relating to the complex rules
+                 of our online lottery. In time, I came to rely on him to make
+                 initial scoping estimates of potential coding projects. For
+                 those projects we chose to pursue, his estimates and their
+                 related task lists formed the basis for further detailed
+                 planning. Furthermore, Magnus's estimates could always be
+                 relied on to be very close to the eventual reality. Magnus was
+                 always looking for ways to improve our product. For example, on
+                 a project that sought through simulation techniques to validate
+                 the correctness of the product's internal calculations, Magnus
+                 recognized that this would provide the ideal test bed for
+                 profiling the product's performance. Through his efforts we
+                 were able to greatly speed up the application, in addition to
+                 fullfilling the primary purose, validation of its calculations.
+                 I recommend Magnus without reservation"}
+                {:author "Bill Lewis"
+                 :title "Head Of Application Development, PricewaterhouseCoopers"
+                 :quote "Magnus joined us towards the start of our exposure to Web
+                 Technology and greatly helped us make the right decisions. I
+                 would have no hesitation recommending Karl for his technical
+                 capability and clarity of thought"}]
+
+ :cv {}
+ :education-summary "Datateknikk HIBU, BI"
+ :experience-since 1996
+ :relationship-status "Gift"
+ :born 1973
+ :qualifications ["Programmering og TDD"
+                  "Teknologievaluering"
+                  "Teamledelse"
+                  "Senior javautvikler"
+                  "funksjonell programmeringsentusiast"
+                  "Prosess og kravanalyse"
+                  "Integrasjon"
+                  "Solid databaseerfaring"]
+ :certifications [{:name "Sertifisert ScrumMaster", :year 2008}
+                  {:name "Microsoft Certified Professional", :year 1999}]
+ :education [{:institution "BI"
+              :years [2004]
+              :subject "Master of Management (1 av 4 moduler), eInnovasjon (A score)"}
+             {:institution "Høgskolen i Buskerud"
+              :years [1993 1994 1995 1996]
+              :subject "Ingeniør, Linje for datateknikk"}
+             {:institution "Røyken videregående skole"
+              :years [1989 1990 1991 1992]
+              :subject "Naturfaglinje"}]
  }
