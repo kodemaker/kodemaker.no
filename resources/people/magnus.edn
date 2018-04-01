@@ -58,10 +58,12 @@
                           I dette fordraget får du en liten smakebit av fordelene med funksjonell programmering (med typer) i Elm. Du får også en innføring
                           i hvordan Elm er mere enn bare et språk. Språket, plattformen og arkitekturen promoterer en ny måte å tenke på som virkelig fanger ens oppmerksomhet.
                           Foredraget består av noen få slides og en solid dose med live-coding !"
+                  :event "JavaZone"
                   :tech [:elm]
                   :urls {:video "https://vimeo.com/181814362"}}
                  {:title "Functional Frontends with Elm"
-                  :blurb "Lyntale på Oslo Socially Functional hvor jeg lager en enkel Chat klient med Elm"
+                  :blurb "Lyntale hvor jeg lager en enkel Chat klient med Elm"
+                  :event "Oslo Socially Functional Meetup"
                   :date "2016-06-07"
                   :tech [:elm]
                   :urls {}}
@@ -69,66 +71,65 @@
                   :blurb "I dette foredraget får du en oversikt over hvordan Elm omfavner Funksjonell Reaktive Programmering
                            vha signaler (verdier som endrer seg over tid). Du vil lære litt om Elm platformen og arkitekturen for en typisk Elm applikasjon.
                            Live koding står også på blokka !"
+                  :event "Flatmap Oslo"
                   :urls {:video "https://vimeo.com/165928866"}
                   :tech [:elm]
                   :date "2016-05-02"}
-                 {:title "Elm package docs preview in Light Table"
-                  :blurb "Screencast som demonstrerer forhåndsvisning av pakke dokumentasjon for Elm i Light Table."
-                  :tech [:elm :clojurescript :lighttable]
-                  :urls {:video "https://youtu.be/pAwdVM888wQ"
-                         :source "https://github.com/rundis/elm-light"}
-                  :date "2016-03-27"}
-                 {:title "Managing and diagramming elm packages with d3 in Light Table"
-                  :blurb "Screencast hvor jeg demonstrerer avhengighetshåndtering og viser avhengighetsgraf (laget med d3) for min
-                          Elm Light Table plugin."
-                  :tech [:elm :clojurescript :lighttable :d3]
-                  :urls {:video "https://youtu.be/Okk-YjEeUgI"
-                         :source "https://github.com/rundis/elm-light"}
-                  :date "2016-01-01"}
-                 {:title "Elm plugin for Light Table"
-                  :blurb "Screencast som demonstrerer første versjon av min elm plugin for Light Table"
-                  :tech [:elm :clojurescript :lighttable ]
-                  :urls {:video "https://youtu.be/B_eZw_GcM-4"
-                         :source "https://github.com/rundis/elm-light"}
-                  :date "2015-10-29"}
-                 {:title "A pinch of Clojure love to Light Table"
-                  :blurb "Screencast som demonstrerer kule features i min Light Table refactoring plugin"
-                  :tech [:clojurescript :lighttable :clojure]
-                  :urls {:video "https://youtu.be/1yk8nsjJxb0"
-                         :source "https://github.com/rundis/clj-light-refactor"}
-                  :date "2015-04-14"}
-                 {:title "Clojure refactoring in Light Table"
-                  :blurb "Screencast som demonstrerer litt av min Light Table refactoring plugin"
-                  :tech [:clojurescript :lighttable :clojure]
-                  :urls {:video "https://www.youtube.com/watch?v=xlGpRTVIkYQ"
-                         :source "https://github.com/rundis/clj-light-refactor"}
-                  :date "2015-03-07"}
-                 {:title "The Groovy Light Table Plugin"
-                  :blurb "Screencast om bruk av Groovy og Gradle i Light Table"
-                  :tech [:clojurescript :lighttable :groovy :gradle]
-                  :urls {:video "http://www.youtube.com/watch?v=5ji8RR2A4gQ"}
-                  :date "2014-05-18"}
-                 {:title "Creating and Using Snippets in Light Table"
-                  :blurb "Screencast som viser hvordan lage og bruke snippets i LightTable med lt-snippets"
-                  :tech [:javascript :lighttable]
-                  :urls {:video "http://www.youtube.com/watch?v=I6iuXOw3HDQ"}
-                  :date "2014-05-06"}
-                 {:title "InstaBuster Part 2: Powerful JavaScript testing using Light Table and Buster.JS"
-                  :blurb "Screencast med demo av dashboard og autotest features for LightTable InstaBuster"
-                  :tech [:javascript :testing :lighttable]
-                  :urls {:video "https://www.youtube.com/watch?v=jYDiAVbPL8I&list=UUIpfu-L0KFtMlju3LgjPeSg"}
-                  :date "2014-04-21"}
-                 {:title "InstaBuster: JavaScript testing with LightTable & Buster.JS"
-                  :blurb "Screencast med en kort introduksjon til LightTable InstaBuster"
-                  :tech [:javascript :testing :lighttable]
-                  :urls {:video "http://www.youtube.com/watch?v=WKHWazblpbc"}
-                  :date "2014-03-17"}
+
                  {:title "Gradle - Det er faktisk ditt bygg"
                   :blurb "Mange klamrer seg fortsatt til
                           illusjonen at alle bygg er (nesten) helt like. Det stemmer kanskje i knøtteligaen, men i litt større organisasjoner finner man alltid spesielle krav til bygge/leveranseprosessene. Det virker logisk å velge et byggeverktøy som er svært fleksibelt og samtidig er basert på konvensjoner. Det verktøyet heter Gradle."
+                  :event "JavaZone"
                   :tech [:gradle :groovy]
                   :urls {:video "http://vimeo.com/49375218"}
                   :date "2012-09-13"}]
+
+ :screencasts [{:title "Elm package docs preview in Light Table"
+                :blurb "Screencast som demonstrerer forhåndsvisning av pakke dokumentasjon for Elm i Light Table."
+                :tech [:elm :clojurescript :lighttable]
+                :url "https://youtu.be/pAwdVM888wQ"
+                :launch-date "2016-03-27"}
+               {:title "Managing and diagramming elm packages with d3 in Light Table"
+                :blurb "Screencast hvor jeg demonstrerer avhengighetshåndtering og viser avhengighetsgraf (laget med d3) for min
+                Elm Light Table plugin."
+                :tech [:elm :clojurescript :lighttable :d3]
+                :url "https://youtu.be/Okk-YjEeUgI"
+                :launch-date "2016-01-01"}
+               {:title "Elm plugin for Light Table"
+                :blurb "Screencast som demonstrerer første versjon av min elm plugin for Light Table"
+                :tech [:elm :clojurescript :lighttable ]
+                :url "https://youtu.be/B_eZw_GcM-4"
+                :launch-date "2015-10-29"}
+               {:title "A pinch of Clojure love to Light Table"
+                :blurb "Screencast som demonstrerer kule features i min Light Table refactoring plugin"
+                :tech [:clojurescript :lighttable :clojure]
+                :url "https://youtu.be/1yk8nsjJxb0"
+                :launch-date "2015-04-14"}
+               {:title "Clojure refactoring in Light Table"
+                :blurb "Screencast som demonstrerer litt av min Light Table refactoring plugin"
+                :tech [:clojurescript :lighttable :clojure]
+                :url "https://www.youtube.com/watch?v=xlGpRTVIkYQ"
+                :launch-date "2015-03-07"}
+               {:title "The Groovy Light Table Plugin"
+                :blurb "Screencast om bruk av Groovy og Gradle i Light Table"
+                :tech [:clojurescript :lighttable :groovy :gradle]
+                :url "http://www.youtube.com/watch?v=5ji8RR2A4gQ"
+                :launch-date "2014-05-18"}
+               {:title "Creating and Using Snippets in Light Table"
+                :blurb "Screencast som viser hvordan lage og bruke snippets i LightTable med lt-snippets"
+                :tech [:javascript :lighttable]
+                :url "http://www.youtube.com/watch?v=I6iuXOw3HDQ"
+                :launch-date "2014-05-06"}
+               {:title "InstaBuster Part 2: Powerful JavaScript testing using Light Table and Buster.JS"
+                :blurb "Screencast med demo av dashboard og autotest features for LightTable InstaBuster"
+                :tech [:javascript :testing :lighttable]
+                :url "https://www.youtube.com/watch?v=jYDiAVbPL8I&list=UUIpfu-L0KFtMlju3LgjPeSg"
+                :launch-date "2014-04-21"}
+               {:title "InstaBuster: JavaScript testing with LightTable & Buster.JS"
+                :blurb "Screencast med en kort introduksjon til LightTable InstaBuster"
+                :tech [:javascript :testing :lighttable]
+                :url "http://www.youtube.com/watch?v=WKHWazblpbc"
+                :launch-date "2014-03-17"}]
 
  :blog-posts [{:url "http://rundis.github.io/blog/2017/elm_bootstrap_launch.html"
                :title "Introducing Elm Bootstrap"
@@ -137,75 +138,75 @@
               {:url "http://rundis.github.io/blog/2016/haskel_elm_spa_part6.html"
                :title "Typed up CRUD SPA with Haskell and Elm - Part 6: Elm 0.18 Upgrade"
                :blurb "I min blogserie om å lage en CRUD applikasjon i Elm og Haskell har tiden kommer for å oppgradere Elm koden til versjon 0.18.
-                       Mye av oppgraderingen denne gangen kunne automatiseres vha verktøy fra Elm Community. Resten av endringene var relativt mekaniske. Posten går relativt detaljert til verks med å sammelikne forskjellene mellom 0.17 og 0.18."
+               Mye av oppgraderingen denne gangen kunne automatiseres vha verktøy fra Elm Community. Resten av endringene var relativt mekaniske. Posten går relativt detaljert til verks med å sammelikne forskjellene mellom 0.17 og 0.18."
                :tech [:elm :haskell]}
               {:url "http://rundis.github.io/blog/2016/elm_light_ast.html"
                :title "Elm Light 0.4.0 - AST driven Elm features in Light Table using PEG.js"
                :blurb "For å kunne tilby enda mer avansert Elm støtte i Light Table har jeg implementert en hjemmesnekret AST vha peg.js. Dette har gitt vesentlig
-                      forbedret autocomplete og endel hendige refactor relaterte funksjoner."
+               forbedret autocomplete og endel hendige refactor relaterte funksjoner."
                :tech [:elm :clojurescript :pegjs :javascript]}
               {:url "http://rundis.github.io/blog/2016/type_confused.html"
                :title "Oh no! Learning Elm has gotten me confused about static vs dynamic typing."
                :blurb "Etter lenge å ha vært overbevist om at dynamisk typing var det eneste saliggjørende reflekterer jeg over
-                       min gryende tvil etter å ha brukt en solid dose tid på å sette meg inn i statisk typede funksjonelle språk."
+               min gryende tvil etter å ha brukt en solid dose tid på å sette meg inn i statisk typede funksjonelle språk."
                :tech [:elm :haskell :clojure :groovy]}
               {:url "http://rundis.github.io/blog/2016/haskel_elm_spa_part5.html"
                :title "Typed up CRUD SPA with Haskell and Elm - Part 5: Elm 0.17 Upgrade"
                :blurb "I min blogserie om å lage en CRUD applikasjon i Elm og Haskell har tiden kommer for å oppgradere Elm koden til versjon 0.17.
-                       Ting har på overflaten endret seg dramatisk siden 0.16, men en strukutert gjennomgang av prosessen viser at de fleste endringene er trivielle og sluttresultat
-                       er unektelig bedre enn forrige versjon."
+               Ting har på overflaten endret seg dramatisk siden 0.16, men en strukutert gjennomgang av prosessen viser at de fleste endringene er trivielle og sluttresultat
+               er unektelig bedre enn forrige versjon."
                :tech [:elm :haskell]}
               {:url "http://rundis.github.io/blog/2016/elm_maybe.html"
                :title "Elm Maybe - Dealing with null/Nothing"
                :blurb "Tony Hoare ansees som mannen som fant opp null reference. Han kaller det sitt billion dollar mistake. I Elm har man ikke null og de problemene
-                       det medfører. I stedet bruker man en eksplisitt type man kaller Maybe (noen språk kaller det Option). I denne blogposten tar jeg for meg hvordan det er å jobbe med Maybe verdier og sammenligner
-                       litt med JavaScript. Det er ikke mange gode unnskyldninger for å ta med null i ett nytt språk, men enda så skjer det med nye språk som blir laget den dag i dag. Forstå det den som kan."
+               det medfører. I stedet bruker man en eksplisitt type man kaller Maybe (noen språk kaller det Option). I denne blogposten tar jeg for meg hvordan det er å jobbe med Maybe verdier og sammenligner
+               litt med JavaScript. Det er ikke mange gode unnskyldninger for å ta med null i ett nytt språk, men enda så skjer det med nye språk som blir laget den dag i dag. Forstå det den som kan."
                :tech [:elm :javascript]}
               {:url "http://rundis.github.io/blog/2016/elm_light_modules.html"
                :title "Elm and ClojureScript joining forces in the elm-light plugin"
                :blurb "Jeg tenkte det måtte være kult å se om man kunne få Elm og ClojureScript til å spille sammen i Light Table.
-                       I denne blogposten forklarer jeg hvordan jeg implementerte en Modul utforsker vha både Elm og ClojureScript"
+               I denne blogposten forklarer jeg hvordan jeg implementerte en Modul utforsker vha både Elm og ClojureScript"
                :tech [:elm :clojurescript :lighttable]}
               {:url "http://rundis.github.io/blog/2016/haskel_elm_spa_part4.html"
                :title "Typed up CRUD SPA with Haskell and Elm - Part 4: Feature creep"
                :blurb "Blogserie som omhandler min ferd for å lære meg statiske sterkt typed funksjonelle språk. Tiden har kommet for å
-                       peise på med mer funksjonalitet og en god del refaktorering. Her får jeg kjørt meg skikkelig på både Elm og Haskell"
+               peise på med mer funksjonalitet og en god del refaktorering. Her får jeg kjørt meg skikkelig på både Elm og Haskell"
                :tech [:elm :haskell]}
               {:url "http://rundis.github.io/blog/2016/haskel_elm_spa_part3.html"
                :title "Typed up CRUD SPA with Haskell and Elm - Part 3: Routing"
                :blurb "Blogserie som omhandler min ferd for å lære meg statiske sterkt typed funksjonelle språk. I denne episoden
-                       implementerer jeg routing i Elm frontenden"
+               implementerer jeg routing i Elm frontenden"
                :tech [:elm :haskell]}
               {:url "http://rundis.github.io/blog/2016/haskel_elm_spa_part2.html"
                :title "Typed up CRUD SPA with Haskell and Elm - Part 2: Persistence up and running"
                :blurb "Blogserie som omhandler min ferd for å lære meg statiske sterkt typed funksjonelle språk. I denne episoden
-                       implementerer jeg persistens vha en god gammeldags relasjonsdatabase"
+               implementerer jeg persistens vha en god gammeldags relasjonsdatabase"
                :tech [:elm :haskell]}
               {:url "http://rundis.github.io/blog/2015/haskell_elm_spa_part1.html"
                :title "Typed up CRUD SPA with Haskell and Elm - Part 1: Spike time"
                :blurb "Blogserie som omhandler min ferd for å lære meg statiske sterkt typed funksjonelle språk. I serien tar
-                       jeg for meg utvikling av en CRUD applikasjon med Elm til frontend og Haskell for backend. Førte episode
-                       tar for seg en spike for å få en helt enkel basis på plass."
+               jeg for meg utvikling av en CRUD applikasjon med Elm til frontend og Haskell for backend. Førte episode
+               tar for seg en spike for å få en helt enkel basis på plass."
                :tech [:elm :haskell]}
               {:url "http://rundis.github.io/blog/2015/elm_sweeper.html"
                :title "Minesweeper - a brief journey from JavaScript/React to Elm"
                :blurb "Jeg tar utgangspunkt i en minesveiper implementasjon fra [Christian Johansen](/christian/) i JavaScript/React og hviser hvordan man kan implementere det samme spillet i Elm.
-                       Bloggposten sammenligner flere implementasjonsdetajer og reflekterer kort om statisk vs. dynamisk typing."
+               Bloggposten sammenligner flere implementasjonsdetajer og reflekterer kort om statisk vs. dynamisk typing."
                :tech [:elm :javascript :react]}
               {:url "http://rundis.github.io/blog/2015/clojurescript_performance_tuning.html"
                :title "ClojureScript - Performance tuning rewrite-cljs"
                :blurb "Rewrite-cljs er mitt bibliotek for å traversere og omskrive clojure/clojurescript kode. I denne blogposten
-                       forteller jeg litt om hvordan jeg tunet ytelsen bl.a ved å komme nærmere jernet (JavaScript)"
+               forteller jeg litt om hvordan jeg tunet ytelsen bl.a ved å komme nærmere jernet (JavaScript)"
                :tech [:clojure :clojurescript :javascript]}
               {:url "http://rundis.github.io/blog/2015/parembrace.html"
                :title "Showcasing rewrite-cljs - Parembrace for Light Table"
                :blurb "En liten fortelling om stegene jeg gikk igjennom for å lage en skikkelig paredit plugin for Clojure/ClojureScript i Light Table.
-                       Et nytt ClojureScript bibliotek ble unnfanget i processen."
+               Et nytt ClojureScript bibliotek ble unnfanget i processen."
                :tech [:clojure :clojurescript]}
               {:url "http://rundis.github.io/blog/2015/lt_react.html"
                :title "Implementing a Clojure ns-browser in Light Table with React"
                :blurb "Buzzword compliant post om hvordan man elegant kan bruke React.JS for implementering av view-logikk i Light Table.
-                       Posten går også i dybden på den grunnleggende arkiteturen i Light Table"
+               Posten går også i dybden på den grunnleggende arkiteturen i Light Table"
                :tech [:clojure :clojurescript]}
               {:url "http://rundis.github.io/blog/2015/clojure_dates.html"
                :title "Taming those pesky datetimes in a clojure stack"
@@ -214,7 +215,7 @@
               {:url "http://rundis.github.io/blog/2015/buddy_auth_part4.html"
                :title "Securing Clojure Microservices using buddy - Part 4: Secure and liberate a service app"
                :blurb "En blogserie hvor jeg ser på autentisering og autorisasjon i en clojure microservices arkitektur med bruk av [Buddy](https://github.com/funcool/buddy).
-                       I del 4 ser vi på hvordan vi kan sikre en service app basert som benytter REST-biblioteket Liberator"
+               I del 4 ser vi på hvordan vi kan sikre en service app basert som benytter REST-biblioteket Liberator"
                :tech [:clojure :buddy :microservices]}
               {:url "http://rundis.github.io/blog/2015/clj_light_thread.html"
                :title "Implementing a Clojure threading refactoring in ClojureScript using Light Table"
@@ -223,71 +224,71 @@
               {:url "http://rundis.github.io/blog/2015/buddy_auth_part3.html"
                :title "Securing Clojure Microservices using buddy - Part 3: Token revocation"
                :blurb "En blogserie hvor jeg ser på autentisering og autorisasjon i en clojure microservices arkitektur med bruk av [Buddy](https://github.com/funcool/buddy).
-                       I del 3 ser vi på mulige løsninger for å trekke tilbake tokens vha refresh tokens"
+               I del 3 ser vi på mulige løsninger for å trekke tilbake tokens vha refresh tokens"
                :tech [:clojure :buddy :microservices]}
               {:url "http://rundis.github.io/blog/2015/buddy_auth_part2.html"
                :title "Securing Clojure Microservices using buddy - Part 2: WebApp authentication and authorization"
                :blurb "En blogserie hvor jeg ser på autentisering og autorisasjon i en clojure microservices arkitektur med bruk av [Buddy](https://github.com/funcool/buddy).
-                       Del 2 handler om å bruk av tokens og cookies for autentisering og autorisasjon i en clojure web applikasjon."
+               Del 2 handler om å bruk av tokens og cookies for autentisering og autorisasjon i en clojure web applikasjon."
                :tech [:clojure :buddy :microservices]}
               {:url "http://rundis.github.io/blog/2015/buddy_auth_part1.html"
                :title "Securing Clojure Microservices using buddy - Part 1: Creating Auth Tokens"
                :blurb "En blogserie hvor jeg ser på autentisering og autorisasjon i en clojure microservices arkitektur med bruk av [Buddy](https://github.com/funcool/buddy).
-                       Del 1 handler om å lage en service som generer signerte tokens for bruk i autentisering og autorisasjon."
+               Del 1 handler om å lage en service som generer signerte tokens for bruk i autentisering og autorisasjon."
                :tech [:clojure :buddy :microservices]}
               {:url "http://rundis.github.io/blog/2015/bootify-ring.html"
                :title "Bootifying my ring app"
                :blurb "[Boot.clj] (https://github.com/boot-clj/boot) er et spennende alternative til Leiningen for bygging av clojure applikasjoner.
-                       Jeg deler noen erfaringer med bruk av Boot.clj i et clojure ring prosjekt"
+               Jeg deler noen erfaringer med bruk av Boot.clj i et clojure ring prosjekt"
                :tech [:clojure :boot]}
               {:url "http://rundis.github.io/blog/2014/gr_lt_part5.html"
                :title "A Groovy Light Table client - Step 5: Gradle dependencies in Light Table with dagre-D3"
                :blurb "Del 5 i en blog serie hvor jeg beskriver stegene jeg tar for å forsøke å lage
-                       en dugandes Groovy plugin for Light Table. Del 5 kombinerer det rike api'et i Gradle
-                       og fleksibiliteten i Light Table til å vise dependency grafer vha D3. Kule greier !"
+               en dugandes Groovy plugin for Light Table. Del 5 kombinerer det rike api'et i Gradle
+               og fleksibiliteten i Light Table til å vise dependency grafer vha D3. Kule greier !"
                :tech [:clojurescript :groovy :gradle :lighttable]}
               {:url "http://rundis.github.io/blog/2014/gr_lt_part4.html"
                :title "A Groovy Light Table client - Step 4: Exploring new avenues with Gradle"
                :blurb "Del 4 i en blog serie hvor jeg beskriver stegene jeg tar for å forsøke å lage
-                       en dugandes Groovy plugin for Light Table. Del 4 handler om implementasjon av Gradle støtte
-                       for uthenting og bruk av classpath, samt opplisting og eksevkvering av tasks"
+               en dugandes Groovy plugin for Light Table. Del 4 handler om implementasjon av Gradle støtte
+               for uthenting og bruk av classpath, samt opplisting og eksevkvering av tasks"
                :tech [:clojurescript :groovy :gradle :lighttable]}
               {:url "http://rundis.github.io/blog/2014/gr_lt_part3.html"
                :title "A Groovy Light Table client - Step 3: Running out of quick wins"
                :blurb "Del 3 i en blog serie hvor jeg beskriver stegene jeg tar for å forsøke å lage
-                       en dugandes Groovy plugin for Light Table. Del 3 handler om noen små forbedringer
-                       for å gi en REPL lignende opplevelse med Groovy."
+               en dugandes Groovy plugin for Light Table. Del 3 handler om noen små forbedringer
+               for å gi en REPL lignende opplevelse med Groovy."
                :tech [:clojurescript :groovy :lighttable]}
               {:url "http://rundis.github.io/blog/2014/gr_lt_part2.html"
                :title "A Groovy Light Table client - Step 2: Evaluating Code"
                :blurb "Del 2 i en blog serie hvor jeg beskriver stegene jeg tar for å forsøke å lage
-                       en dugandes Groovy plugin for Light Table. Del 2 handler om hvordan jeg får
-                       evaluert Groovy kode og vist resultater inline i Light Table."
+               en dugandes Groovy plugin for Light Table. Del 2 handler om hvordan jeg får
+               evaluert Groovy kode og vist resultater inline i Light Table."
                :tech [:clojurescript :groovy :lighttable]}
               {:url "http://rundis.github.io/blog/2014/gr_lt_part1.html"
                :title "A Groovy Light Table client - Step 1: Connecting the client"
                :blurb "Del 1 i en blog serie hvor jeg beskriver stegene jeg tar for å forsøke å lage
-                       en dugandes Groovy plugin for Light Table. I denne posten beskriver jeg hvordan
-                       jeg kobler opp Light Table til en Groovy klient-prosess."
+               en dugandes Groovy plugin for Light Table. I denne posten beskriver jeg hvordan
+               jeg kobler opp Light Table til en Groovy klient-prosess."
                :tech [:clojurescript :groovy :lighttable]}
 
               {:url "http://codewader.blogspot.no/2014/02/getting-my-feet-wet-with-clojure-using.html"
                :title "Getting my feet wet with Clojure using Light Table"
                :blurb "En liten erfaringsrapport fra mine første steg med å skrive produksjonskode i Clojure
-                       ved bruk av Light Table IDE."
+               ved bruk av Light Table IDE."
                :tech [:clojure :lighttable]}
 
               {:url "http://codewader.blogspot.no/2013/08/javascript-testing-in-your-jvm-projects.html"
                :title "Javascript testing in your JVM projects using Gradle and BusterJS"
                :blurb "Hadde det ikke vært kjekt om du kunne inkludert javascript testing som en del
-                       av CI for JVM prosjektet ditt ? Gradle Buster Plugin to the rescue !"
+               av CI for JVM prosjektet ditt ? Gradle Buster Plugin to the rescue !"
                :tech [:gradle :javascript :buster-js]}
 
               {:url "http://codewader.blogspot.no/2011/08/groovy-infatuation-growing.html"
                :title "A groovy infatuation growing"
                :blurb "Etter mange år med java begynte jeg så smått å bli litt lei. Det var jo mange
-                       andre språk på JVM plattformen der ute. Etter å ha jobbet med gradle en periode
-                       fikk jeg mer om mer sansen for Groovy."
+               andre språk på JVM plattformen der ute. Etter å ha jobbet med gradle en periode
+               fikk jeg mer om mer sansen for Groovy."
                :tech [:groovy]}]
 
  :open-source-projects [{:url "https://github.com/rundis/elm-bootstrap"
