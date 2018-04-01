@@ -653,11 +653,10 @@
  :experience-since 1996
  :relationship-status "Gift"
  :born 1973
- :qualifications ["Programmering og TDD"
-                  "Teknologievaluering"
+ :qualifications ["Funksjonell programmering (frontend og backend)"
+                  "Testdrevet utvikling"
+                  "Teknologievalueringer"
                   "Teamledelse"
-                  "Senior javautvikler"
-                  "funksjonell programmeringsentusiast"
                   "Prosess og kravanalyse"
                   "Integrasjon"
                   "Solid databaseerfaring"]
