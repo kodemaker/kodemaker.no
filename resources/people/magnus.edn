@@ -354,8 +354,7 @@
              konfigurerbare kriterier. Oppgaver: Utvikling av backend tjenester
              og integrasjon mot kjernemoduler i eventsystemet. Finne best mulig
              løsning for å løse det NP komplette problemet å automatisk best
-             mulig plassere 1000vis av deltakere på tvers av 100vis av bord.
-             Rolle: Seniorutvikler"
+             mulig plassere 1000vis av deltakere på tvers av 100vis av bord."
              :tech [:clojure :kotlin :angularjs :ansible :datomic :mongodb :gradle :teamcity]}
             {:customer "Aprila Bank"
              :years [2017]
@@ -366,7 +365,7 @@
              mellomstore bedrifter på en helt ny og spennend måte. Oppgaver:
              Integrasjon mot diverse 3.parts løsninger, etablering av
              mikrotjenster, teknologievalueringer, frontend utvikling,
-             automatisert testing mm. Roller: Seniorutvikler"
+             automatisert testing mm."
              :tech [:kotlin :elm :postgresql :google-cloud :gitlab :kubernetes :rust :aws]}
             {:customer "Animalia - Dyrehelseportalen"
              :years [2016]
@@ -379,7 +378,7 @@
              Første versjon av ny applikasjon gikk i produksjon i Januar 2017 og
              er nå under kontinuerlig videreutvikling. Oppgaver: Analyse, design
              og full-stack utvikling av en mikrotjeneste-basert arkitektur med
-             flere sluttbruker-applikasjoner. Roller: Seniorutvikler"
+             flere sluttbruker-applikasjoner."
              :tech [:clojure :clojurescript :re-frame :docker :oracle :sql-server :elastic-search
                     :docker :docker-cloud :bootstrap :jenkins]}
             {:customer "Animalia - Vedlikehold og videreutvikling"
@@ -389,7 +388,7 @@
              :description "Vedlikehold og videreutvikling av flere av de
              eksisterende Grails applikasjonene i Animalia. Oppgaver: Utvikling,
              bugfixing, refaktorering og arkitetekturarbeide med tanke på
-             applikasjonenes levetid Roller: Seniorutvikler"
+             applikasjonenes levetid."
              :tech [:grails :groovy :oracle :docker :javascript]}
             {:customer "Animalia - Helsegris"
              :years [2014]
@@ -397,9 +396,8 @@
              :summary "Utvikling av ny applikasjon for oppfølging av dyrehelse for griser"
              :description "Utvikling av ny applikasjon for oppfølging av
              dyrehelse for griser. Det er også et mål for prosjektet å lage
-             endel gjenbrukbare tjenester Oppgaver: Utvikling, mentoring og
-             veiledning på utvikling av tjenestearkitekturer Roller:
-             Seniorutvikler og Mentor"
+             endel gjenbrukbare tjenester. Oppgaver: Utvikling, mentoring og
+             veiledning på utvikling av tjenestearkitekturer."
              :tech [:clojure :clojurescript :docker :ansible :bootstrap :reactjs :busterjs
                     :jenkins :oracle]}
             {:customer "Animalia - Sauekontrollen"
@@ -407,7 +405,7 @@
              :employer :kodemaker
              :summary "Full-stack utvikling i Grails"
              :description "Full-stack utvikling i Grails. Prosjektekspert på
-             JavaScript/TDD og provisjonering (Ansible). Rolle: Seniorutvikler"
+             JavaScript/TDD og provisjonering (Ansible)."
              :tech [:grails :groovy :jquery :bootstrap :ansible :busterjs :oracle :tomcat :jenkins :git :spock]}
             {:customer "Animalia - Storfekjøttkontrollen"
              :years [2012]
@@ -421,7 +419,7 @@
              moderne web-teknologi basert på Java-platformen. Oppgaver: Utvikling
              av frontend og backend for nytt system. Mentoring i smidig
              utvikling. Mentoring av fastansatte/nyansatte i moderne
-             systemutvikling Roller: Seniorutvikler, Mentor systemutvikling"
+             systemutvikling."
              :tech [:grails :groovy :jquery :bootstrap :oracle :tomcat :jenkins :git :spock]}
             {:customer "Storebrand Aktuarsystemer"
              :years [2011]
@@ -433,11 +431,11 @@
              økende behov for å utvikle ny funksjonalitet i et raskere tempo.
              Samtidig har man også opparbeidet endel teknisk gjeld. Magnus er
              leid inn i første rekke som seniorutvikler på java delen av
-             løsningen Oppgaver: Utvikling av ny funksjonalitet i Java, Pl/SQL
+             løsningen. Oppgaver: Utvikling av ny funksjonalitet i Java, Pl/SQL
              og noe .Net. SCRUM mentoring og mentoring på best practices innen
              systemutvikling generelt. Forbedring av eksisterende
              utviklingsprosess, bistand med innføring av nye produktive verktøy
-             og disipliner. Roller: Senior Java Utvikler, Prosessforbedrer"
+             og disipliner."
              :tech [:java :plsql :gradle :teamcity :svn :dotnet :junit :apache-camel :spring :oracle]}
             {:customer "Forsvaret FLO/IKT"
              :years [2010]
@@ -452,8 +450,7 @@
              arkitekturen. Oppgaver: Basert på en spesifikasjon og
              referansemplementasjon fra Forsvaret forskningsinstitutt var Magnus
              sin oppgave å lage en produkuksjonsklar første versjon som skal
-             integreres i SOA arkitekturen. Roller: Arkitekt og Senior Java
-             Utvikler"
+             integreres i SOA arkitekturen."
              :tech [:soap :webservices :netty :udp :tcp :java :jmx :jaxb :saaj :swing-admin-console
                     :gradle :svn :hudson :confluence :jira :grasshopper]}
             {:customer "Telenor Mobil"
@@ -461,10 +458,10 @@
              :employer :kodemaker
              :summary "Oppgradering av mellomvareplatform (COS)"
              :description "Oppgradering av mellomvareplattform (COS).
-             Oppgradering av Java4-Java6, weblogic8-weblogic10, maven1-gradle
+             Oppgradering av Java4-Java6, weblogic8-weblogic10 og maven1-gradle.
              Oppgaver: Scrum assistanse, Utvikling av webservices, porting av
              biblioteker, weblogic konfigurasjon, ytelsestesting, byggesystem
-             analyse og migrering Roller: Senior Java Utvikler"
+             analyse og migrering."
              :tech [:weblogic :java :maven :gradle :mks :junit :easymock :xfire :axis
                     :bamboo :cygwin :grinder :j2ee :spring]}
             {:customer "Forsvaret FLO/IKT"
@@ -472,137 +469,141 @@
              :employer :kodemaker
              :summary "Modernisering og videreutvikling av fagapplikasjoner for dokumenthåndtering"
              :description "Modernisering av fagapplikasjoner for
-             dokumenthåndtering/rapporthåndtering til Web 2.0 Oppgaver:
+             dokumenthåndtering/rapporthåndtering til Web 2.0. Oppgaver:
              Kravstyring, Arkitekturevaluering, Utvikling på alle
-             applikasjonslag, ytelsestesting, mentoring. Roller: Senior Java
-             Utvikler / SCRUM Master / Mentor."
+             applikasjonslag, ytelsestesting, mentoring."
              :tech [:java :tapestry :spring :hibernate :lucene :hibernate-search :tomcat :apache
                     :maven :hudson :easymock :svn :jira :confluence]}
             {:customer "Nordic Lottery Systems"
              :years [2006 2007 2008]
+             :exclude-from-profile? true
              :employer :kodemaker
              :summary "Internettspill"
              :description "Utvikling av nytt internettspill med svært høye
-             oppetids og ytelseskrav Oppgaver: Requirements Managament (user
+             oppetids og ytelseskrav. Oppgaver: Requirements Managament (user
              stories og use cases), DDD, Design og utvikling av JEE komponenter,
-             Team admin, Ytelsesoptimlisering Roller: Senior Java Utvikler /
-             Kravansvarlig"
+             Team admin, Ytelsesoptimlisering."
              :tech [:java :spring :jboss :jboss-portal :jboss-messaging :jbossws :hibernate
                     :apache :postgresql :oracle :flash :quartz :maven :ant :junit :junitee :easymock
                     :contestj :aop :cruise-control :eclipse :intellij :cvs :jira :confluence]}
             {:customer "EDB ASA"
              :years [2005]
+             :exclude-from-profile? true
              :employer :kodemaker
              :summary "Migrering av driftsmiljø for Storebrand"
-             :description "Migrering av driftsmiljø for Storebrand Oppgaver:
+             :description "Migrering av driftsmiljø for Storebrand. Oppgaver:
              Ekspertråd, assistanse, \"troubleshooting\", konfigurasjon,
-             performance tuning, mentoring, dokumentasjon Roller: Websphere
-             Ekspert"
+             performance tuning, mentoring, dokumentasjon."
              :tech [:websphere :mq-series :domino :db2 :mssql :oracle]}
             {:customer "Trygge barnehager"
              :years [2004 2005]
+             :exclude-from-profile? true
              :employer :kodemaker
              :summary "Utvikling av ASP-tjenester"
              :description "Utvikling av ASP tjenester for barnehagesektoren.
              Omfattet tjenester innen; opptak, økonomi, hjemmeside og kvalitet i
-             barnehager Oppgaver: Etablering av IT arkitektur mål og plan,
+             barnehager. Oppgaver: Etablering av IT arkitektur mål og plan,
              Teknisk ansvarling mot outsourcings leverandør,
-             teknologievalueringer, rådgivning på prosess og metode Roller:
-             Arkitekt, technical lead"
+             teknologievalueringer, rådgivning på prosess og metode."
              :tech [:dotnet :visual-studio :csharp :sql-server-2000 :sql-reporting-services
                     :ms-exchange :dashboard-portal]}
             {:customer "IBM Danmark"
              :years [2003]
+             :exclude-from-profile? true
              :employer :kodemaker
              :summary "Virk.DK, felles G2B portal for danske myndigheter"
              :description "Virk.DK prosjektet er resultatet av en stor satsning
              fra den danske stat for å realisere en G2B portal, hvor
              virksomheter etterhvert skal kunne foreta all kommunikasjon med
              myndighetene elektronisk. Oppgaver: Design/utvikling av
-             arbeidsflyter, utvikling av portlets, digitale signaturer Roller:
-             Senior utvikler og designer"
+             arbeidsflyter, utvikling av portlets, digitale signaturer."
              :tech [:j2ee :ejb :websphere-portal :tivoli :db2 :secureway-directory-stellent-cms
                     :adobe-reachform :webservices :pki :ant :log4j :junit :cvs :xerces
                     :xalan :websphere-studio]}
             {:customer "Pwc internt"
              :years [2002 2003]
+             :exclude-from-profile? true
              :employer :pwc-england
              :summary "CRM Implementasjon"
              :description "CRM Implementasjon. Virksomhetskritisk prosjekt med
              målsetning å konsolidere all kunde-og kontaktinformasjon for PWC UK
              til en sentralisert kilde. Prosjektet var en PeopleSoft 8.8
              implementasjon og hadde en mengde grensesnitt til firmaets
-             kjernesystemer Oppgaver: Arkitektur governance, Design/utvikling av
+             kjernesystemer. Oppgaver: Arkitektur governance, Design/utvikling av
              portlets, integrasjon mot SSO, design og utvikling av
              integrasjonsgrensesnitt Rolle: Teknisk arkitekt."
              :tech [:peoplesoft-crm :websphere :mqseries-integrator :siteminder
                     :epicentric-portal :java :j2ee :xml :xslt :soap :jbuilder]}
             {:customer "Pwc internt"
              :years [2002 2003]
+             :exclude-from-profile? true
              :employer :pwc-england
              :summary "Risk Managment Reporting"
              :description "Risk Managment Reporting, System for distribuert
              analyse og rapportering av risiko vurdering internt i firmaet.
              Systemet hadde hovedsaklig partnere som brukergruppe, og blir
-             benyttet globalt Oppgaver: Analyse/design, koordinering mot indisk
-             outsourcet team, arkitekturprototype, databasedesign Rolle:
-             Arkitekt og Team leder"
+             benyttet globalt. Oppgaver: Analyse/design, koordinering mot indisk
+             outsourcet team, arkitekturprototype, databasedesign."
              :tech [:iis :complus :mssql :rational-suite :asp :visual-basic :xml :xslt
                     :siteminder :epicentric-portal]}
             {:customer "Pwc internt"
              :years [2002]
+             :exclude-from-profile? true
              :employer :pwc-england
              :summary "Virksomhetsportal"
              :description "Virksomhetsportal, Portalløsning for alle firmaets
              ansatte i Storbrittania. Portalen tilbyr en samlet personlisert
              brukerflate og aksess til de fleste av firmaets kritiske systemer.
              En viktig suksessfaktor for systemet var innføring av en
-             SSO (Single Sign-On) infrastruktur Oppgaver: Rådgivning integrasjon
+             SSO (Single Sign-On) infrastruktur. Oppgaver: Rådgivning integrasjon
              mot portal, rådgivning integrasjon mot SSO, design og utvikling av
-             portlets Rolle: Integrasjonskonsulent"
+             portlets."
              :tech [:epicentric-portal :websphere :siteminder :iplanet-enterprise-directory
                     :verity-search :oracle :db2 :mssql :notes :iis :mqseries :java :j2ee
                     :asp :xml :xslt :xmlspy :eclipse :rational-suite]}
             {:customer "HM C&E - Engelske tolldirektoratet"
              :years [2001 2002]
+             :exclude-from-profile? true
              :employer :net-professionals-uk
              :summary "G2B Portal for engelske tollvesenet"
              :description "G2B Portal. eEnabling av tjenester fra
-             tolldirektoratet mot publikum og bedrifter Oppgaver: Governance,
-             Analyse/Design, Team ledelse og utvikling Rolle: Strategisk
-             arkitekt/designer."
+             tolldirektoratet mot publikum og bedrifter. Oppgaver: Governance,
+             Analyse/Design, Team ledelse og utvikling."
              :tech [:architecture]}
             {:customer "Storebrand"
              :years [2000 2001]
+             :exclude-from-profile? true
              :employer :objectware
              :summary "Råd på nett, Unit Linked"
-             :description "Utvikling av tjenester for Storebrands nettbank
-             Oppgaver: Team ledelse, OOAD, utvikling og mentoring Rolle:
-             Arkitekt og Team leder"
+             :description "Utvikling av tjenester for Storebrands nettbank.
+             Oppgaver: Team ledelse, OOAD, utvikling og mentoring."
              :tech [:java :j2ee :websphere :visual-age :notes :togetherj :junit :xalan :xerces :xml :xslt :db2]}
             {:customer "Aftenposten"
              :years [1999 2000]
+             :exclude-from-profile? true
              :employer :objectware
              :summary "Elektronisk innkjøpssystem"
-             :description "Elektronisk innkjøpssystem Oppgaver: Team ledelse,
-             OOAD og utvikling Rolle: Arkitekt"
+             :description "Elektronisk innkjøpssystem. Oppgaver: Team ledelse,
+             OOAD og utvikling."
              :tech [:visual-basic :ms-dna :mssql :iis :asp :mts :complus :ms-market
                     :site-server-commerce :rational-rose :rup]}
             {:customer "Domino DA"
              :years [1999]
+             :exclude-from-profile? true
              :employer :objectware
              :summary "Bonuspoengsystem"
-             :description "Bonuspoengsystem Oppgaver: Rådgivning, Team ledelse,
-             OOAD og utvikling Rolle: Arkitekt"
+             :description "Bonuspoengsystem. Oppgaver: Rådgivning, Team ledelse,
+             OOAD og utvikling."
              :tech [:ms-dna :mts :mq-series :oracle :agresso :plsql :complus :visual-basic
                     :rational-rose :erwin]}
             {:customer "Telnor bedrift"
              :years [1997 1998 1999]
+             :exclude-from-profile? true
              :employer :objectware
              :summary "Fakturagrunnlagssystem"
              :description "Fakturagrunnlagssystem. System for prising av telenor
-             bedrifts datatjenester Oppgaver: Design, utvikling, kravanalyse og
-             testing Rolle: Arkitekt, designer, utvikler"
+             bedrifts datatjenester. Oppgaver: Design, utvikling, kravanalyse og
+             testing."
              :tech [:windows :hpunix :visual-basic :complus :sybase :rational-rose :erwin :dbartisan]}]
 
  :endorsements [{:author "Simon Herberg"
