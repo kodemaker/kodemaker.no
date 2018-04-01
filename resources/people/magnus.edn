@@ -15,9 +15,9 @@
             :github "rundis"
             :linkedin "/in/mrundberget"}
 
- :tech {:using-at-work [:clojure :reframe :docker :groovy :grails :oracle]
+ :tech {:using-at-work [:clojure :reframe :docker :python :clojurescript]
         :favorites-at-the-moment [:elm :haskell :clojure :clojurescript :figwheel]
-        :want-to-learn-more [:elm :elixir :rust :haskell :idris]}
+        :want-to-learn-more [:elm :rust :haskell :idris :kubernetes]}
 
  :recommendations [{:title "Inventing on principle"
                     :link {:url "https://www.youtube.com/watch?v=PUv66718DII"
