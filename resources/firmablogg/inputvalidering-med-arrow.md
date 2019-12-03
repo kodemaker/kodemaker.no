@@ -1,6 +1,6 @@
 :title Inputvalidering i Kotlin med Arrow
 :author frode
-:published 2019-12-03
+:published 2019-12-04
 :tech [:kotlin :arrow]
 
 :blurb
