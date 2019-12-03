@@ -19,7 +19,7 @@ Se for deg at du skal sende inn et skjema for å registrere en bruker. Du fyller
 
 Som et minimum har vi følgende mål:
 
-* Valideringsfeil må være spesifikke slik at de kan håndteres programmatisk og slik at riktig melding kan vises til brukeren, og beskrivende slik at en utvikler vet hva som er galt.
+* Valideringsfeil må være spesifikke slik at de kan håndteres programmatisk og riktig melding kan vises til brukeren, og beskrivende slik at en utvikler vet hva som er galt.
 * Validere alle innsendte verdier og samle opp eventuelle feil
 * Sørge for at vi kun har gyldige verdier før vi oppretter domeneobjekter og kaller funksjoner med forretningsregler
 
