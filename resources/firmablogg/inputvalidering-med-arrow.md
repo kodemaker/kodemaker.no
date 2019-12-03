@@ -5,7 +5,7 @@
 
 :blurb
 
-Arrow er et nyttig lite bibliotek som er ment som en utvidelse av Kotlins standardbibliotek med fokus på funksjonell programmering. I dette innlegget skal vi se på hvordan vi kan bruke datatypen `Validated` til å gjøre inputvalidering morsommere, mer effektivt og ikke minst funksjonelt.
+Arrow er et nyttig bibliotek som er ment som en utvidelse av Kotlins standardbibliotek med fokus på funksjonell programmering. I dette innlegget skal vi se på hvordan vi kan bruke datatypen `Validated` til å gjøre inputvalidering morsommere, mer effektivt og ikke minst funksjonelt.
 
 :body
 
@@ -13,15 +13,15 @@ Inputvalidering er kanskje ikke den mest spennende delen av fagfeltet vårt, men
 
 Vi skal se litt på hvordan vi kan gjøre inputvalidering i [Kotlin](https://kotlinlang.org/) ved hjelp av [Arrow](https://arrow-kt.io/). Arrow er ment som en utvidelse av Kotlins standardbibliotek med fokus på funksjonell programmering og henter inspirasjon fra [Haskell](https://www.haskell.org/) og [Scala](https://www.scala-lang.org/). Her finner du en rekke nyttige datatyper (som `Either`, `Option`, `Validated` og `IO`), et rikt biblitek av funksjoner og abstraksjoner som `Functor`, `Applicative` og `Monad`.
 
-## Oppgaven
+## Utfordringen
 
 Se for deg at du skal sende inn et skjema for å registrere en bruker. Du fyller ut alle feltene etter beste evne og trykker send. En feilmelding viser at det snek seg inn et punktum for mye i epostadressen. Du retter det og sender på nytt og får beskjed om at passordet ikke er langt nok. Send på nytt: Du glemte å huke av for lest vilkår. Send på nytt... Dette er en fin måte å irritere brukerne på. Vi må altså sørge for at vi validerer alle innsendte verdier samtidig og gir tilbake alle feilmeldingene i responsen.
 
 Som et minimum har vi følgende mål:
 
 * Valideringsfeil må være spesifikke slik at de kan håndteres programmatisk og riktig melding kan vises til brukeren, og beskrivende slik at en utvikler vet hva som er galt.
-* Validere alle innsendte verdier og samle opp eventuelle feil
-* Sørge for at vi kun har gyldige verdier før vi oppretter domeneobjekter og kaller funksjoner med forretningsregler
+* Validere alle innsendte verdier og samle opp eventuelle feil.
+* Sørge for at vi kun har gyldige verdier før vi oppretter domeneobjekter og kaller funksjoner med forretningsregler.
 
 ## Validated
 
@@ -41,7 +41,7 @@ Dette minner mistenkelig om `Either`. Bare med litt mer spesifikke navn. Kan vi 
 * **Monad** egner seg til sekvensielle operasjoner der en operasjon avhenger av resultatet fra den forrige
 * **Applicative Functor** egner seg til operasjoner som er uavhengige av hverandre
 
-Sett i lys av disse huskereglene og vårt initielle mål om å gi brukeren alle valideringsfeilene i samme respons, så høres jo `Validated` midt i blinken ut.
+Sett i lys av disse huskereglene og vårt initielle mål om å gi brukeren alle valideringsfeilene i samme respons, høres jo `Validated` midt i blinken ut.
 
 ## Eksempeldomene
 
@@ -93,7 +93,7 @@ fun validatePlayer(name: String?, birthYear: String?): ValidatedNel<ValidationEr
     VA.map(
         validateName(name),
         validateBirthYear(birthYear)
-    ) { Player(it.a, it.b) }.fix()
+    ) { (name, birthYear) -> Player(name, birthYear) }.fix()
 ```
 
 Hvis vi først ser bort fra den noe mystiske definisjonen av `VA` så ser dette ganske greit ut. Vi kaller funksjonen `.map()` med resultatet fra hver av valideringsfunksjonene og hvis begge er gyldige (instans av `ValidNel`) så kaller vi lambdaen `{ Player(it.a, it.b) }` med et `Tuple2` med de to gyldige verdiene for `name` og `birthYear` så vi kan instansiere en `Player`. Skulle en eller begge funksjonene returnere `InvalidNel` blir også resultatet av `validatePlayer` `InvalidNel` med alle valideringsfeilene akkumulert. Poenget her er at ved å bruke en ferdig implementasjon av abstraksjonen `Applicative` får vi oppsamling av valideringsfeil uten å implementere det selv.
@@ -134,7 +134,7 @@ fun validateTeam(minPlayers: Int, name: String?, players: List<Player>): Validat
     VA.map(
         validateTeamName(name),
         if (players.size < minPlayers) NotEnoughPlayers(minPlayers).invalidNel() else players.validNel()
-    ) { Team(it.a, it.b) }.fix()
+    ) { (name, players) -> Team(name, players) }.fix()
 ```
 
 Arrow har et noe rikere typehierarki internt og i enkelte situasjoner må man bruke funksjonen `fix()` for å konvertere tilbake til vanlige typer. Dette er kun en cast for å hjelpe Kotlins typeinferens.
@@ -180,8 +180,8 @@ val validTeam = validatedPlayers.toEither().flatMap { players ->
 
 `validatedTeam` vil nå enten innholde et gyldig `Team` eller en liste av valideringsfeil fra valideringen av spillere **eller** valideringsfeilene fra valideringen av selve laget.
 
-## En start
+## En god start
 
 Med Arrows `Validated` og en enkel struktur for valideringsfeil har vi et fint utgangspunkt for å lage et rikt sett av domenespesifikke valideringsfunksjoner. Mesteparten av mekanikken er implementert for oss og vi kan konsentrere oss om valideringsreglene.
 
-Vi har også, med validering som eksempel, skrapet i overflaten på hva Arrow med sin verktøykasse for funksjonell programmering kan tilby. Noen begreper kan virke fremmede, men det er bare patterns som går igjen så ofte i funksjonell programmering at man har laget generiske abstraksjoner for dem. Med Arrow slipper man å implementere disse selv og man får en struktur på koden som andre som kan funksjonell programmering vil kjenne seg igjen i.
+Vi har så vidt skrapet i overflaten på hva Arrow med sin verktøykasse for funksjonell programmering kan tilby. Noen begreper kan virke fremmede, men det er bare patterns som går igjen så ofte i funksjonell programmering at man har laget generiske abstraksjoner for dem. Med Arrow slipper man å implementere disse selv og man får en struktur på koden som andre som kan funksjonell programmering vil kjenne seg igjen i.
