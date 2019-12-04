@@ -11,7 +11,7 @@ Arrow er et nyttig bibliotek som er ment som en utvidelse av Kotlins standardbib
 
 Inputvalidering er kanskje ikke den mest spennende delen av fagfeltet vårt, men det er viktig. Det er en del av det daglige arbeidet for de aller fleste av oss enten vi lager brukergrensesnitt eller APIer i backend. Et godt opplegg for inputvalidering vil spare oss for mye tid etter hvert som ny funksjonalitet legges til og gjøre applikasjonen eller APIet vårt hyggeligere å bruke.
 
-Vi skal se litt på hvordan vi kan gjøre inputvalidering i [Kotlin](https://kotlinlang.org/) ved hjelp av [Arrow](https://arrow-kt.io/). Arrow er ment som en utvidelse av Kotlins standardbibliotek med fokus på funksjonell programmering og henter inspirasjon fra [Haskell](https://www.haskell.org/) og [Scala](https://www.scala-lang.org/). Her finner du en rekke nyttige datatyper (som `Either`, `Option`, `Validated` og `IO`), et rikt biblitek av funksjoner og abstraksjoner som `Functor`, `Applicative` og `Monad`.
+Vi skal se litt på hvordan vi kan gjøre inputvalidering i [Kotlin](https://kotlinlang.org/) ved hjelp av [Arrow](https://arrow-kt.io/). Arrow er ment som en utvidelse av Kotlins standardbibliotek med fokus på funksjonell programmering og henter inspirasjon fra [Haskell](https://www.haskell.org/) og [Scala](https://www.scala-lang.org/). Her finner du en rekke nyttige datatyper (som `Either`, `Option`, `Validated` og `IO`), et rikt bibliotek av funksjoner og abstraksjoner som `Functor`, `Applicative` og `Monad`.
 
 ## Utfordringen
 
@@ -19,13 +19,14 @@ Se for deg at du skal sende inn et skjema for å registrere en bruker. Du fyller
 
 Som et minimum har vi følgende mål:
 
-* Valideringsfeil må være spesifikke slik at de kan håndteres programmatisk og riktig melding kan vises til brukeren, og beskrivende slik at en utvikler vet hva som er galt.
 * Validere alle innsendte verdier og samle opp eventuelle feil.
 * Sørge for at vi kun har gyldige verdier før vi oppretter domeneobjekter og kaller funksjoner med forretningsregler.
+* Valideringsfeilene må være spesifikke slik at de kan håndteres programmatisk og riktig melding kan vises til brukeren.
+* Valideringsfeilene må ha en god beskrivelse slik at en utvikler vet hva som er galt.
 
 ## Validated
 
-Validated er en datatype som enten representerer en gyldig verdi (etter et eller annet kriterium for gyldighet) eller en valideringsfeil. I Arrow ser det omtrent sånn ut:
+`Validated` er en datatype som enten representerer en gyldig verdi (etter et eller annet kriterium for gyldighet) eller en valideringsfeil. I Arrow ser det omtrent sånn ut:
 
 ```kotlin
 sealed class Validated<out E, out A> {
