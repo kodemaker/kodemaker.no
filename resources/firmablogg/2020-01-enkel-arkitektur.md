@@ -1,7 +1,7 @@
 :title En enkel frontendarkitektur som funker
 :published 2020-01-29
 :author magnar
-:tech [:frontend :design :clojurescript :functional-programming]
+:tech [:frontend :design :functional-programming]
 
 :blurb
 
