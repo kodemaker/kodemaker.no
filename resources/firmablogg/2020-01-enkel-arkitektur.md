@@ -97,9 +97,7 @@ få testet logikken.
 ## Til slutt
 
 Dette er en arkitektur jeg har brukt med glede på små og store prosjekter de
-siste fem årene.
-
-Hva får man egentlig av denne arkitekturen?
+siste fem årene, men hva får man egentlig?
 
  - En dataflyt som er lett å følge.
  - Gjenbrukbare komponenter som implementerer designet.
