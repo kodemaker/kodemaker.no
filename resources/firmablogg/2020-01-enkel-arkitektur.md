@@ -17,11 +17,11 @@ av.
 
 Her er de viktigste poengene:
 
-- All data er samlet på én plass
-- Dataflyten er forutsigbar og ensrettet
-- UI-komponentene får alle dataene sine tilsendt
-- UI-komponentene er uavhenging av domene og kontekst
-- Handlinger kommuniseres fra UI-komponentene via data
+- All data er samlet på én plass.
+- Dataflyten er forutsigbar og ensrettet.
+- UI-komponentene får alle dataene sine tilsendt.
+- UI-komponentene er uavhenging av domene og kontekst.
+- Handlinger kommuniseres fra UI-komponentene via data.
 - De bevegelige delene er samlet på toppnivå i en main-funksjon.
 
 ## Kort fortalt
