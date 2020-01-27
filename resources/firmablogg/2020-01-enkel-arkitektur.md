@@ -26,13 +26,11 @@ Her er de viktigste poengene:
 
 ## Kort fortalt
 
-App'en sparkes i gang av en `main`-metode, som oppretter et sted å samle dataene.
+App-en sparkes i gang av en `main`-metode, som oppretter et sted å samle dataene.
 Disse hentes, og sendes til en `prepare`-funksjon som gjør domenedata om til
 UI-data. UI-dataene rendres ved hjelp av generiske komponenter.
 
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="230 350 400 180" xml:space="preserve"><style>.st0{fill:#fff;stroke:#000;stroke-miterlimit:10}.st1{font-family:&apos;ArialMT&apos;}.st2{font-size:10px}.st3,.st4{fill:none;stroke:#000;stroke-miterlimit:10}.st4{stroke-width:.75}</style><path class="st0" d="M375.5 404.88h-42c-5.52 0-10-4.48-10-10v-15.75c0-5.52 4.48-10 10-10h42c5.52 0 10 4.48 10 10v15.75c0 5.52-4.48 10-10 10zM519.5 418.5H626V512H519.5z"/><text transform="translate(343.663 391)" class="st1 st2">Main</text><text transform="translate(250.935 446.614)"><tspan x="0" y="0" class="st1 st2">Domene-</tspan><tspan x="10.83" y="11" class="st1 st2">data</tspan></text><ellipse class="st0" cx="270.88" cy="418.81" rx="30.75" ry="12.81"/><ellipse class="st0" cx="270.88" cy="475.19" rx="30.75" ry="12.81"/><path class="st3" d="M240.12 417.96v56.37M301.62 417.96v56.37"/><path class="st4" d="M309 450.5h59.7"/><path d="M374 450.5l-7.46 3.05 1.77-3.05-1.77-3.05z"/><text transform="translate(320.342 445.96)" class="st1 st2">prepare</text><path class="st4" d="M428.5 450.5h74.7"/><path d="M508.5 450.5l-7.46 3.05 1.77-3.05-1.77-3.05z"/><text transform="translate(442.896 444.96)"><tspan x="0" y="0" class="st1 st2">generiske</tspan><tspan x="-7.5" y="16" class="st1 st2">komponenter</tspan></text><text transform="translate(387.18 435.96)" class="st1 st2">UI-data</text><text transform="translate(564.91 435.96)" class="st1 st2">DOM</text><g><path class="st4" d="M323.5 394.5L305 409.63"/><path d="M301.5 412.5c1.15-1.96 2.34-4.68 2.7-6.82l1.26 3.58 3.26 1.94c-2.17-.07-5.07.56-7.22 1.3z"/></g><g><path class="st4" d="M404.5 441.5l-14 30M404.02 442.71l20.48 29.79"/><circle transform="rotate(-27.365 404.043 442.822)" cx="404.1" cy="442.82" r="2.82"/><path class="st4" d="M390.5 471.5l-14.43 16.56M390.5 471.5l13 15M403.5 486.5l-12 20M403.5 486.5l12 21"/></g><g><path class="st4" d="M575.5 441.5l-14 30M575.02 442.71l20.48 29.79"/><circle transform="rotate(-27.365 575.032 442.833)" cx="575.1" cy="442.82" r="2.82"/><path class="st4" d="M561.5 471.5l-14.43 16.56M561.5 471.5l13 15M574.5 486.5l-12 20M574.5 486.5l12 21"/></g><path class="st3" d="M519.5 422.59H626"/></svg>
-
-Flere detaljer følger:
 
 ## Dataflyt
 
@@ -43,18 +41,20 @@ noen GET-requests - så lenge det gjøres sentralt, skal jeg ikke klage.
 
 Når du har datene, så samles de på toppnivå på en plass som er definert av
 main-funksjonen. Det kan være i [en database](/datascript/), i et
-[atom](https://clojure.org/reference/atoms), eller til nøds i et JS-map `{}`.
+[atom](https://clojure.org/reference/atoms), eller til nøds i et JS-objekt.
 
 Uansett trenger du å vite når dataene har endret seg, slik at en oppdatering av
-UIet kan sparkes igang.
+UI-et kan sparkes igang.
 
 Når dette skjer kalles en `prepare`-funksjon med alle dataene, som gjør
 domenedata om til UI-data. Disse UI-dataene sendes til en toppnivå komponent,
 som tegner ut UIet med generiske komponenter.
 
 Det er hele dataflyten. Når det kommer endringer til dataene, skjer alt dette om
-igjen. [Virtual DOM](https://github.com/snabbdom/snabbdom)-trikset (opprinnelig
-fra React) lar oss gjør dette uten store ytelsesproblemer.
+igjen. [Virtual DOM](https://github.com/snabbdom/snabbdom)-trikset (gjort
+populært av React) lar oss gjør dette uten store ytelsesproblemer.*
+
+<small>* Ut av boksen for ClojureScript, men store JavaScript-prosjekter må kanskje ty til immutable.js</small>
 
 ## Generiske komponenter
 
