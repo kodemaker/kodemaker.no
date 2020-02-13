@@ -1125,6 +1125,14 @@ a, .clickable {
   font-style: italic;
 }
 
+.codehilite, code {
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+  overflow: auto;
+  vertical-align: middle;
+  line-height: 1.3;
+  font-size: 15px;
+}
+
 /* "iPad" */
 @media only screen and (max-width: 900px) {
   .h0 {

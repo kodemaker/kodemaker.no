@@ -43,6 +43,7 @@
       [:meta {:name "viewport" :content "width=device-width, initial-scale=1.0"}]
       [:link {:rel "stylesheet" :href "https://fonts.googleapis.com/css?family=Lato:300,400&display=swap"}]
       [:link {:rel "stylesheet" :href (link/file-path request "/css/kodemaker.css")}]
+      [:link {:rel "stylesheet" :href (link/file-path request "/css/pygments.css")}]
       [:link {:href (link/file-path request "/favicon.ico") :rel "icon" :type "image/x-icon"}]
       [:link {:href (link/file-path request "/favicon.ico") :rel "shortcut icon" :type "image/ico"}]
       [:link {:href (link/file-path request "/favicon.ico") :rel "shortcut icon" :type "image/x-icon"}]
