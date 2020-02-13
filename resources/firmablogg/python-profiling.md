@@ -13,10 +13,10 @@ effektivitet.
 
 :body
 
-I noen typer utvikling spiller det fortsatt en rolle hvor effektiv hver linje
+I noen typer utvikling spiller det fortsatt en rolle hvor effektiv hver kodelinje
 faktisk er. Et slikt område er bildeanalyse - hvor samme operasjon kanskje skal
-gjentaes på 1 million punkter - eller man skal behandle mange bilder pr. sekund fra
-en videostrøm. Jeg har tidligere skrevet litt om hvordan man kan gjøre slik
+gjentaes på 1 million punkter - eller hvor man skal behandle mange bilder pr. sekund
+fra en videostrøm. Jeg har tidligere skrevet litt om hvordan man kan gjøre slik
 bildeanalyse i Python og OpenCV (
 [Del 1 - Intro](/blogg/2019-09-bildeanalyse-intro/),
 [Del 2 - Linjer](/blogg/2019-09-bildeanalyse-linjer/),
@@ -68,11 +68,11 @@ av koden som bruker mest tid - men har funnet et fint verktøy for å hjelpe meg
 ## Python line_profiler
 
 For noen år siden kom jeg over [line_profiler](https://github.com/rkern/line_profiler).
-Det er et glimrende lite verktøy som kan måle hvor lang tid hver linje i en funksjon
-bruker. Etter å ha installert line_profiler (`pip install line_profiler`) får man
-tilgang til et kommandolinje-verktøy som heter `kernprof` som brukes i stedet for
-`python` når man skal kjøre koden. Da vil den lage en profil av alle funksjoner som
-har en `@profile` annotasjon. Så for å se på eksempelkoden over:
+Det er et glimrende lite verktøy som kan måle hvor lang tid hver kodelinje i en
+funksjon bruker. Etter å ha installert line_profiler (`pip install line_profiler`)
+får man tilgang til et kommandolinje-verktøy som heter `kernprof` som brukes i
+stedet for `python` når man skal kjøre koden. Da vil den lage en profil av alle
+funksjoner som har en `@profile` annotasjon. Så for å se på eksempelkoden over:
 
 1. Sette inn annotasjon:
 ```python
@@ -127,10 +127,10 @@ Line #      Hits         Time  Per Hit   % Time  Line Contents
 ```
 
 Det jeg stort sett har fokusert mest på er `% time` som altså viser hvor stor andel
-av den totale kjøretiden som skjedde på akkurat denne linjen. Vi ser på output over
-at 58.2% av tiden gikk til å finne linjer - og 19.1% på å gjøre EN morphological
-close operasjon. Så dette burde være gode kandidater om jeg trenger å trimme ned
-tiden litt.
+av den totale kjøretiden som skjedde på akkurat denne kodelinjen. Vi ser på output
+over at 58.2% av tiden gikk til å finne linjer - og 19.1% på å gjøre EN
+morphological close operasjon. Så dette burde være gode kandidater om jeg trenger å
+trimme ned tiden litt.
 
 Det som er litt snedig er at morphological open og close er omtrent samme type
 operasjon - allikevel tar close her 19.1% og open bare 0.9%. Forskjellen ligger kun
