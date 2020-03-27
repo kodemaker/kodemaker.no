@@ -1,0 +1,22 @@
+{:id :erlang
+ :name "Erlang"
+ :type :proglang
+ :site "https://www.erlang.org"
+ :description
+ 
+ "Erlang er et programmeringsspråk som er utviklet av Ericsson Computer Science Laboratory, som så dagens lys første gang i 1986.
+ 
+ Wikipedia beskriver Erlang slik: 
+ 
+ Erlang (/ˈɜːrlæŋ/ UR-lang) is a general-purpose, concurrent, functional programming language, 
+ and a garbage-collected runtime system. The term Erlang is used interchangeably with Erlang/OTP, 
+ or Open Telecom Platform (OTP), which consists of the Erlang runtime system, 
+ several ready-to-use components (OTP) mainly written in Erlang, and a set of design principles for Erlang programs.
+ 
+Erland kjører i BEAM som er språkets virtuelle maskin, som flere mer moderne språk benytter seg av. Det mest kjente ved siden av Erlang er Elixir, 
+men det finnes også andre språk som Clojerl, Joxa og Lfe som alle er Lispbaserte språk samt Luerl som er en implementasjon av Lua.
+
+Det finnes mange kjente produkter som er Erlang baserte som f.eks SimpleDB fra Amazon, Facebook Chat, hvor backend er Erlang basert, WhatsApp, CouchDb, RabbitMQ etc.
+"}
+
+

@@ -1,0 +1,9 @@
+{:id :arrow
+ :name "Arrow"
+ :type :library
+ :site "https://arrow-kt.io"
+ :description
+ "Arror er et bibliotek som gir Kotlin enda flere funksjonelle konsepter enn hva man får ut av boksen. 
+ Biblioteket er oppdelt i moduler slik at man kan velge hvilke funksjonalitet man ønsker å dra inn i de forskjellige prosjektene.
+ 
+ Vi i Kodemaker har benyttet oss av dette i et prosjekt med stort hell."}

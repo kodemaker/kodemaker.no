@@ -1,0 +1,8 @@
+{:id :ios
+ :name "iOS"
+ :type :os
+ :site "https://www.apple.com/ios"
+ :description
+ "iOS er et operativsystem for mobil og tablet utviklet av Apple.
+  I 2019 lanserte Apple et eget operativsystem for iPad kalt iPadOS, som bygger på iOS
+ "}

@@ -1,0 +1,6 @@
+{:id :cordova
+ :name "Apache Cordova"
+ :type :framework
+ :site "https://cordova.apache.org"
+ :description
+ "Apache Cordova er et rammeverk for utvikling av mobil applikasjoner, hvor man bruker web teknologi. Rammeverket var tidligere kjent som PhoneGap."}

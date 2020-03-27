@@ -1,0 +1,5 @@
+{:id :pwa
+ :name "PWA"
+ :type :architecture
+ :description "Progressive Web Apps (PWA) benytter moderne Web APIer for å kunne tilby native lignende funksjonalitet i en webleser"
+}
