@@ -5,7 +5,8 @@
 
 :blurb
 
-Rockon blurb...
+Har du hørt om zippers før? Ikke glidlåser altså, men en teknikk for å representere aggregerte datastrukturer slik at de kan enkelt traverseres og manipuleres nærmest vilkårlig.
+La oss utforske zippers litt nærmere og se hvordan du kan bruke de i clojure.
 
 
 :body
