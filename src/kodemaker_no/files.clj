@@ -16,7 +16,7 @@
   (normalize-path (.getPath path)))
 
 (defn- just-the-filename [^String path]
-  (last (str/split path (re-pattern fsep))))
+  (last (str/split path (re-pattern fsep-regex-str))))
 
 (defn- emacs-file-artefact? [^String path]
   (let [filename (just-the-filename path)]
