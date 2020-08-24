@@ -2,6 +2,7 @@
   (:require [clojure.java.io :as io]
             [clojure.set :as set]
             [clojure.string :as str]
+            [optimus.assets.creation]
             [kodemaker-no.homeless :as h]
             [kodemaker-no.ingestion.video :as video]))
 
@@ -301,6 +302,7 @@
            io/as-file
            file-seq
            (map #(.getPath %))
+           (map optimus.assets.creation/file-system-path-to-url-path)
            (filter #(re-find #"\.jpg$" %))
            (map #(second (str/split % #"public")))))
 
