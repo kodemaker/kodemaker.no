@@ -181,7 +181,10 @@
  :data
  {:label "Data"
   :parent :other
-  :idx 95}
+  :idx 95
+  :techs
+  [:json
+   :xml]}
 
  :database
  {:label "Database"
