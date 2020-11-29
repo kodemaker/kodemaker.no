@@ -133,14 +133,14 @@
              applikasjoner. Utvikling av grensesnitt mellom SAP og andre
              forvaltningssystem, samt tilpasning av disse systemene slik at de
              samspiller med SAP. Oppgaver: Senior Javautvikler."
-             :tech [:j2ee :java :struts :spring :hibernate :jboss :oracle :maven :svn]}
+             :tech [:j2ee :java :struts :spring :hibernate :jboss :oracle :maven :svn :eclipse]}
             {:customer "TAD"
              :years [2006]
              :employer :kodemaker
              :summary "Tolldeklarasjonssystem"
              :description "TVINN System for behandling av tolldeklarasjoner.
              Oppgaver: Senior Javautvikler."
-             :tech [:j2ee :j2se :spring :hibernate :genova :rational-rose :sybase]}
+             :tech [:j2ee :j2se :spring :hibernate :genova :rational-rose :sybase :eclipse]}
             {:customer "Forsvaret"
              :years [2005]
              :employer :kodemaker
@@ -150,14 +150,14 @@
              applikasjoner nevnt over. Arkitekt og utvikler for forsvarets
              datakvaitetsmonitor. Oppgaver: Senior Javautvikler. Gjennomførte
              overgang fra CVS til Subversion."
-             :tech [:j2ee :java :struts :spring :hibernate :jboss :oracle :jasper-reports :ant :svn]}
+             :tech [:j2ee :java :struts :spring :hibernate :jboss :oracle :jasper-reports :ant :svn :eclipse]}
             {:customer "Mintra"
              :years [2005]
              :employer :kodemaker
              :summary "Optimalisering og videreutvikling av LMS"
              :description "Optimalisering og videreutvikling av LMS.
              Oppgaver: Senior Javautvikler."
-             :tech [:j2ee :java :servlets :xslt :jdbc :caucho-resin :postgresql]}
+             :tech [:j2ee :java :servlets :xslt :jdbc :caucho-resin :postgresql :eclipse]}
             {:customer "Fagsenteret for kjøtt"
              :years [2004]
              :employer :kodemaker
