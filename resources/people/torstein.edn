@@ -68,6 +68,14 @@
                        :customer "Forsvaret"}]
 
  :projects [{:customer "Forsvaret"
+             :start "2019-05"
+             :end "2020-02"
+             :employer :kodemaker
+             :summary "Datakvalitetsmonitor modernisering"
+             :description "Modernisere applikasjon som måler datakvalitet på tvers av 
+             applikasjoner."
+             :tech [:react :typescript :javascript :material-ui :rest :json :ad :spring-boot :java :jpa :hibernate :apache-poi :d3 :oracle :sql :suse-linux :apache :tomcat]}
+            {:customer "Forsvaret"
              :start "2019-01"
              :end "2019-04"
              :employer :kodemaker
