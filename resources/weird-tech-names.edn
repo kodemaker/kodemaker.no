@@ -98,6 +98,7 @@
  :graphql "GraphQL"
  :groovyws "GroovyWS"
  :grpc "gRPC"
+ :gsp "GSP"
  :h2db "H2 database"
  :haproxy "HAProxy"
  :hateoas "Hypermedia (HATEOAS)"
