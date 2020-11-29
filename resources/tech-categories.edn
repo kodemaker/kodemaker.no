@@ -890,6 +890,7 @@
    :grails
    :graphql
    :groovyws
+   :gsp
    :gwt
    :html5
    :https
