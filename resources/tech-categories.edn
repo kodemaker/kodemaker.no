@@ -661,6 +661,7 @@
    :shell
    :solaris
    :ssh
+   :suse-linux
    :terminator
    :thrift
    :ubuntu
