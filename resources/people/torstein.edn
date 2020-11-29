@@ -263,5 +263,8 @@
               :subject "Sivilingeniør Datateknikk - Kunnskapssystemer"}
              {:institution "UiB"
               :years [1996 1997]
-              :subject "Realfag"}]
+              :subject "Realfag"}
+             {:institution "Førstegangstjeneste i hæren"
+              :years [1995 1996]
+              :subject "Menig, Telemark Bataljon"}]
  }
