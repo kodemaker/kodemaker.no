@@ -441,6 +441,7 @@
    :less
    :mapbox
    :material-ui
+   :neptune
    :om
    :om-next
    :oocss
@@ -986,7 +987,6 @@
    :ms-dna
    :ms-market
    :mts
-   :neptune
    :orion
    :paradox
    :silverstream
