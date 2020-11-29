@@ -955,6 +955,7 @@
    :struts2
    :swagger
    :tapestry
+   :thymeleaf
    :tomcat
    :unfiltered
    :unity3d
