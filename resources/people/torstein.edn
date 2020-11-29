@@ -68,6 +68,13 @@
                        :customer "Forsvaret"}]
 
  :projects [{:customer "Forsvaret"
+             :start "2020-03"
+             :end "2020-12"
+             :employer :kodemaker
+             :summary "Ammunisjonsrestriksjoner modernisering"
+             :description "Modernisere applikasjon som viser restriksjoner knyttet til ammunisjon."
+             :tech [:react :typescript :javascript :material-ui :rest :json :spring-boot :java :jpa :hibernate :apache-poi :oracle :sql :suse-linux :apache :tomcat]}
+            {:customer "Forsvaret"
              :start "2019-05"
              :end "2020-02"
              :employer :kodemaker
@@ -120,7 +127,7 @@
             {:customer "Forsvaret"
              :years [2007 2008 2009 2010 2011 2012 2013 2014]
              :employer :kodemaker
-             :summary "EDBVT, Amplan, Ammunisjonsrestrksjoner, Datakvalitetsmonitor"
+             :summary "EDBVT, Amplan, Ammunisjonsrestriksjoner, Datakvalitetsmonitor"
              :description "EDBVT, Amplan, Ammunisjonsrestrksjoner,
              Datakvalitetsmonitor Videreutvikling på flere av forsvarets
              applikasjoner. Utvikling av grensesnitt mellom SAP og andre
