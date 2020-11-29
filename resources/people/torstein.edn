@@ -81,14 +81,14 @@
              :summary "Datakvalitetsmonitor modernisering"
              :description "Modernisere applikasjon som måler datakvalitet på tvers av 
              applikasjoner."
-             :tech [:react :typescript :javascript :material-ui :rest :json :ad :spring-boot :java :jpa :hibernate :apache-poi :d3 :oracle :sql :toad :suse-linux :apache :tomcat :vscode :git]}
+             :tech [:react :typescript :javascript :material-ui :rest :json :ad :spring-boot :java :jpa :hibernate :apache-poi :d3 :oracle :sql :plsql :toad :suse-linux :apache :tomcat :vscode :git]}
             {:customer "Forsvaret"
              :start "2019-01"
              :end "2019-04"
              :employer :kodemaker
              :summary "GBMS modernisering"
              :description "Modernisere applikasjon gjør datafangst og analyse av skyts."
-             :tech [:grails :groovy :gsp :bootstrap :d3 :javascript :gorm :oracle :sql :toad :suse-linux :apache :tomcat :intellij :git]}
+             :tech [:grails :groovy :gsp :bootstrap :d3 :javascript :gorm :oracle :sql :plsql :toad :suse-linux :apache :tomcat :intellij :git]}
             {:customer "Forsvaret"
              :start "2018-09"
              :end "2018-12"
@@ -106,7 +106,7 @@
              :description "Oppgrading av Forsvarets system for ammunisjonsplanlegging.
              Integrasjon med en rekke andre system tilknyttet ammunisjonsforvaltningen.
              Oppgave: Analyse, design, test, utvikling, dokumentasjon."
-             :tech [:java :spring-boot :jpa :oracle :sql :toad :bootstrap :html :css :javascript :thymeleaf :git :intellij :git]}
+             :tech [:java :spring-boot :jpa :oracle :sql :plsql :toad :bootstrap :html :css :javascript :thymeleaf :git :intellij :git]}
             {:customer "Forsvaret"
              :years [2016]
              :employer :kodemaker
@@ -115,7 +115,7 @@
              anmodning om og behandling av materialdata. Integrasjon med
              forsvarets SAP-løsning. Oppgave: Analyse, design, test, utvikling,
              dokumentasjon"
-             :tech [:groovy :grails :oracle :sql :toad :sap :intellij :git]}
+             :tech [:groovy :grails :oracle :sql :plsql :toad :sap :intellij :git]}
             {:customer "Forsvaret"
              :years [2015]
              :employer :kodemaker
@@ -123,7 +123,7 @@
              :description "Videreutvikling av GBMS for datafangst og analyse av
              skyts. Integrasjon med forsvarets SAP-løsning. Oppgave: Analyse,
              design, test, utvikling, dokumentasjon"
-             :tech [:groovy :grails :gsp :bootstrap :oracle :sql :toad :sap :javascript :intellij :git]}
+             :tech [:groovy :grails :gsp :bootstrap :oracle :sql :plsql :toad :sap :javascript :intellij :git]}
             {:customer "Forsvaret"
              :years [2007 2008 2009 2010 2011 2012 2013 2014]
              :employer :kodemaker
@@ -133,7 +133,7 @@
              applikasjoner. Utvikling av grensesnitt mellom SAP og andre
              forvaltningssystem, samt tilpasning av disse systemene slik at de
              samspiller med SAP. Oppgaver: Senior Javautvikler."
-             :tech [:j2ee :java :struts :spring :hibernate :jboss :oracle :sql :toad :maven :svn :eclipse]}
+             :tech [:j2ee :java :struts :spring :hibernate :jboss :oracle :sql :plsql :toad :maven :svn :eclipse]}
             {:customer "TAD"
              :years [2006]
              :employer :kodemaker
@@ -150,7 +150,7 @@
              applikasjoner nevnt over. Arkitekt og utvikler for forsvarets
              datakvaitetsmonitor. Oppgaver: Senior Javautvikler. Gjennomførte
              overgang fra CVS til Subversion."
-             :tech [:j2ee :java :struts :spring :hibernate :jboss :oracle :sql :toad :jasper-reports :ant :svn :eclipse]}
+             :tech [:j2ee :java :struts :spring :hibernate :jboss :oracle :sql :plsql :toad :jasper-reports :ant :svn :eclipse]}
             {:customer "Mintra"
              :years [2005]
              :employer :kodemaker
@@ -194,7 +194,7 @@
              :description "Reiselivssystem Drift og videreutvikling av
              reiselivssystemet jeg hadde vært med å utvikle i DBC-Munin
              AS/Inspera AS. Oppgaver: Ansvarlig"
-             :tech [:j2ee :java :ejb :jdbc :swing :jms :xml :xslt :javascript :weblogic :jboss :jetty :tomcat :oracle :sql :toad]}
+             :tech [:j2ee :java :ejb :jdbc :swing :jms :xml :xslt :javascript :weblogic :jboss :jetty :tomcat :oracle :sql :plsql :toad]}
             {:customer "Interne prosjekter"
              :years [1999, 2000, 2001]
              :employer :dbc
@@ -203,7 +203,7 @@
              presentasjon, publisering , booking, fakturering og lagerstyring
              for små og mellomstore reiselivsbedrifter. Utvikling av moduler til
              bruk i e-læringssystem Oppgaver: Javautvikler."
-             :tech [:j2ee :java :servlets :ejb :jdbc :swing :jms :xslt :javascript :weblogic :jboss :jetty :tomcat :oracle :sql :toad]}]
+             :tech [:j2ee :java :servlets :ejb :jdbc :swing :jms :xslt :javascript :weblogic :jboss :jetty :tomcat :oracle :sql :plsql :toad]}]
 
  :endorsements [{:author "Tommy Lund"
                  :title "Offiser, Forsvaret"
