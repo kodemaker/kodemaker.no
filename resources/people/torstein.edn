@@ -181,6 +181,17 @@
              bruk i e-læringssystem Oppgaver: Javautvikler."
              :tech [:j2ee :java :servlets :ejb :jdbc :swing :jms :xslt :javascript :weblogic :jboss :jetty :tomcat :oracle]}]
 
+ :endorsements [{:author "Tommy Lund"
+                 :title "Offiser, Forsvaret"
+                 :quote "Torstein var hovedutvikler på Amplan, en applikasjon 
+                 for bestilling og planlegging av Forsvarets ammunisjonsbehov. 
+                 Torstein har gjennom hele prosjektet kommet med svært gode 
+                 tekniske løsninger. Han er effektiv, veldig imøtekommende og 
+                 har hele tiden sørget for at alle krav løses på en god måte, også 
+                 i integrasjonen mot andre etablerte applikasjoner. Systemet 
+                 oppleves som intuitivt og enkelt i bruk. Det dekker mange 
+                 behov for ammunisjonsforvaltning, et ganske komplekst domene. 
+                 Jeg kan anbefale Torstein på det varmeste."}]
  :cv {}
  :education-summary "Sivilingeniør NTNU, Realfag UiB"
  :experience-since 1999
