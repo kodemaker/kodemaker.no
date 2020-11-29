@@ -73,7 +73,7 @@
              :employer :kodemaker
              :summary "Ammunisjonsrestriksjoner modernisering"
              :description "Modernisere applikasjon som viser restriksjoner knyttet til ammunisjon."
-             :tech [:react :typescript :javascript :material-ui :rest :json :spring-boot :java :jpa :hibernate :apache-poi :oracle :sql :suse-linux :apache :tomcat :vscode]}
+             :tech [:react :typescript :javascript :material-ui :rest :json :spring-boot :java :jpa :hibernate :apache-poi :oracle :sql :suse-linux :apache :tomcat :vscode :git]}
             {:customer "Forsvaret"
              :start "2019-05"
              :end "2020-02"
@@ -81,14 +81,14 @@
              :summary "Datakvalitetsmonitor modernisering"
              :description "Modernisere applikasjon som måler datakvalitet på tvers av 
              applikasjoner."
-             :tech [:react :typescript :javascript :material-ui :rest :json :ad :spring-boot :java :jpa :hibernate :apache-poi :d3 :oracle :sql :suse-linux :apache :tomcat :vscode]}
+             :tech [:react :typescript :javascript :material-ui :rest :json :ad :spring-boot :java :jpa :hibernate :apache-poi :d3 :oracle :sql :suse-linux :apache :tomcat :vscode :git]}
             {:customer "Forsvaret"
              :start "2019-01"
              :end "2019-04"
              :employer :kodemaker
              :summary "GBMS modernisering"
              :description "Modernisere applikasjon gjør datafangst og analyse av skyts."
-             :tech [:grails :groovy :gsp :bootstrap :d3 :javascript :gorm :oracle :sql :suse-linux :apache :tomcat :intellij]}
+             :tech [:grails :groovy :gsp :bootstrap :d3 :javascript :gorm :oracle :sql :suse-linux :apache :tomcat :intellij :git]}
             {:customer "Forsvaret"
              :start "2018-09"
              :end "2018-12"
@@ -106,7 +106,7 @@
              :description "Oppgrading av Forsvarets system for ammunisjonsplanlegging.
              Integrasjon med en rekke andre system tilknyttet ammunisjonsforvaltningen.
              Oppgave: Analyse, design, test, utvikling, dokumentasjon."
-             :tech [:java :spring-boot :jpa :oracle :bootstrap :html :css :javascript :git :intellij]}
+             :tech [:java :spring-boot :jpa :oracle :bootstrap :html :css :javascript :git :intellij :git]}
             {:customer "Forsvaret"
              :years [2016]
              :employer :kodemaker
@@ -115,7 +115,7 @@
              anmodning om og behandling av materialdata. Integrasjon med
              forsvarets SAP-løsning. Oppgave: Analyse, design, test, utvikling,
              dokumentasjon"
-             :tech [:groovy :grails :oracle :sap :git :intellij]}
+             :tech [:groovy :grails :oracle :sap :intellij :git]}
             {:customer "Forsvaret"
              :years [2015]
              :employer :kodemaker
@@ -123,7 +123,7 @@
              :description "Videreutvikling av GBMS for datafangst og analyse av
              skyts. Integrasjon med forsvarets SAP-løsning. Oppgave: Analyse,
              design, test, utvikling, dokumentasjon"
-             :tech [:groovy :grails :gsp :bootstrap :oracle :sap :git :javascript :intellij]}
+             :tech [:groovy :grails :gsp :bootstrap :oracle :sap :javascript :intellij :git]}
             {:customer "Forsvaret"
              :years [2007 2008 2009 2010 2011 2012 2013 2014]
              :employer :kodemaker
