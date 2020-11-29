@@ -73,7 +73,7 @@
              :employer :kodemaker
              :summary "Ammunisjonsrestriksjoner modernisering"
              :description "Modernisere applikasjon som viser restriksjoner knyttet til ammunisjon."
-             :tech [:react :typescript :javascript :material-ui :rest :json :spring-boot :java :jpa :hibernate :apache-poi :oracle :sql :suse-linux :apache :tomcat]}
+             :tech [:react :typescript :javascript :material-ui :rest :json :spring-boot :java :jpa :hibernate :apache-poi :oracle :sql :suse-linux :apache :tomcat :vscode]}
             {:customer "Forsvaret"
              :start "2019-05"
              :end "2020-02"
@@ -81,7 +81,7 @@
              :summary "Datakvalitetsmonitor modernisering"
              :description "Modernisere applikasjon som måler datakvalitet på tvers av 
              applikasjoner."
-             :tech [:react :typescript :javascript :material-ui :rest :json :ad :spring-boot :java :jpa :hibernate :apache-poi :d3 :oracle :sql :suse-linux :apache :tomcat]}
+             :tech [:react :typescript :javascript :material-ui :rest :json :ad :spring-boot :java :jpa :hibernate :apache-poi :d3 :oracle :sql :suse-linux :apache :tomcat :vscode]}
             {:customer "Forsvaret"
              :start "2019-01"
              :end "2019-04"
