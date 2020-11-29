@@ -172,7 +172,7 @@
              :description "Reiselivssystem Drift og videreutvikling av
              reiselivssystemet jeg hadde vært med å utvikle i DBC-Munin
              AS/Inspera AS. Oppgaver: Ansvarlig"
-             :tech [:j2ee :java :ejb :jdbc :swing :jms :xslt :javascript :weblogic :jboss :jetty :tomcat :oracle]}
+             :tech [:j2ee :java :ejb :jdbc :swing :jms :xml :xslt :javascript :weblogic :jboss :jetty :tomcat :oracle]}
             {:customer "Interne prosjekter"
              :years [1999]
              :employer :dbc
