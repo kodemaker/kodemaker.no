@@ -254,6 +254,7 @@
  :visibroker "Borland Visibroker"
  :visual-basic "Visual Basic"
  :visual-studio "Visual Studio"
+ :vscode "Visual Studio Code"
  :vmware-esxi "VMWare ESXI (nå vSphere)"
  :wcf "WCF"
  :webgl "WebGL"

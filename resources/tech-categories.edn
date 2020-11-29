@@ -384,6 +384,7 @@
    :vim
    :visual-studio
    :visual-studio-appcenter
+   :vscode
    :websphere-studio
    :xcode
    :xmlspy]}
