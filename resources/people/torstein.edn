@@ -208,6 +208,18 @@
                  kan tilføre ethvert prosjekt positiv innsprøytning. Han får 
                  mine beste anbefalinger!"}]
  :cv {}
+
+ :endorsement-highlight {:author "Stein Engen"
+                         :title "Senioringeniør, Forsvaret"
+                         :quote "Torstein er en meget 
+                 dyktig utvikler rent teknisk, men han fungerer også ypperlig i 
+                 kommunikasjon med kunder/brukere. Hans logiske evner, samt 
+                 kreative måte å løse komplekse problemstillinger på, har bidratt 
+                 til at løsningene han har vært med på å utvikle er bunnsolide 
+                 og fungerer utmerket. Torstein vil alltid være en ressurs som 
+                 kan tilføre ethvert prosjekt positiv innsprøytning. Han får 
+                 mine beste anbefalinger!"}
+
  :education-summary "Sivilingeniør NTNU, Realfag UiB"
  :experience-since 1999
 
