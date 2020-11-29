@@ -69,6 +69,7 @@
 
  :projects [{:customer "Forsvaret"
              :start "2018-09"
+             :end "2018-12"
              :employer :kodemaker
              :summary "FUNIF Kasse"
              :description "Webapplikasjon for ansatte på Forsvarets Uniformsutsalg. Direkte
