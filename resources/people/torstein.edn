@@ -77,6 +77,7 @@
              :tech [:neptune :javascript :abap :sap]}
             {:customer "Forsvaret"
              :start "2017-09"
+             :end "2018-08"
              :employer :kodemaker
              :summary "Amplan modernisering"
              :description "Oppgrading av Forsvarets system for ammunisjonsplanlegging.
