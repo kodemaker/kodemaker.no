@@ -68,6 +68,13 @@
                        :customer "Forsvaret"}]
 
  :projects [{:customer "Forsvaret"
+             :start "2019-01"
+             :end "2019-04"
+             :employer :kodemaker
+             :summary "GBMS modernisering"
+             :description "Modernisere applikasjon gjør datafangst og analyse av skyts."
+             :tech [:grails :groovy :gsp :bootstrap :d3 :javascript :gorm :oracle :sql :suse-linux :apache :tomcat]}
+            {:customer "Forsvaret"
              :start "2018-09"
              :end "2018-12"
              :employer :kodemaker
