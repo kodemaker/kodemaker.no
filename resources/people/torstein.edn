@@ -106,7 +106,7 @@
              :description "Oppgrading av Forsvarets system for ammunisjonsplanlegging.
              Integrasjon med en rekke andre system tilknyttet ammunisjonsforvaltningen.
              Oppgave: Analyse, design, test, utvikling, dokumentasjon."
-             :tech [:java :spring-boot :jpa :oracle :bootstrap :html :css :javascript :git :intellij :git]}
+             :tech [:java :spring-boot :jpa :oracle :bootstrap :html :css :javascript :thymeleaf :git :intellij :git]}
             {:customer "Forsvaret"
              :years [2016]
              :employer :kodemaker
