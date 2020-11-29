@@ -262,6 +262,7 @@
  :wkhtmltopdf "wkhtmltopdf"
  :wpf "Windows Presentation Foundation"
  :xamarin-forms "Xamarin Forms"
+ :xml "XML"
  :xmlspy "XML Spy"
  :xslt "XSLT"
  :xtractor "XTractor"
