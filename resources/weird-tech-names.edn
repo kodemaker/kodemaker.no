@@ -198,6 +198,7 @@
  :plsql "PL/SQL"
  :postgresql "PostgreSQL"
  :powerbuilder "PowerBuilder"
+ :powercenter "PowerCenter"
  :powerdesigner "PowerDesigner"
  :prototype "Prototype.JS"
  :pwa "Progressive Web Apps (PWA)"
