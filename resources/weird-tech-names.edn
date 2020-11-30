@@ -259,6 +259,7 @@
  :wcf "WCF"
  :webgl "WebGL"
  :weblogic "WebLogic"
+ :webmethods "webMethods"
  :websocket "WebSocket"
  :webwork "WebWork"
  :wkhtmltopdf "wkhtmltopdf"
