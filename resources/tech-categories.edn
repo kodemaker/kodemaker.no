@@ -301,7 +301,6 @@
    :spark
    :teamcity
    :terraform
-   :toad
    :traefik
    :varnish
    :vault
@@ -334,6 +333,7 @@
    :springsource-tool-suite
    :systemjs
    :terminal
+   :toad
    :togetherj
    :vagrant
    :visual-age
