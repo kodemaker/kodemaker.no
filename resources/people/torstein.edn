@@ -102,7 +102,7 @@
              :start "2017-09"
              :end "2018-08"
              :employer :kodemaker
-             :summary "Amplan modernisering"
+             :summary "Amplan5"
              :description "Oppgrading av Forsvarets system for ammunisjonsplanlegging.
              Integrasjon med en rekke andre system tilknyttet ammunisjonsforvaltningen.
              Oppgave: Analyse, design, test, utvikling, dokumentasjon."
@@ -127,7 +127,7 @@
             {:customer "Forsvaret"
              :years [2007 2008 2009 2010 2011 2012 2013 2014]
              :employer :kodemaker
-             :summary "EDBVT, Amplan, Ammunisjonsrestriksjoner, Datakvalitetsmonitor"
+             :summary "EDBVT, Amplan3, Amplan4, Ammunisjonsrestriksjoner, Datakvalitetsmonitor"
              :description "EDBVT, Amplan, Ammunisjonsrestrksjoner,
              Datakvalitetsmonitor Videreutvikling på flere av forsvarets
              applikasjoner. Utvikling av grensesnitt mellom SAP og andre
@@ -145,7 +145,7 @@
              :years [2005]
              :employer :kodemaker
              :summary "Forvaltningssystem"
-             :description "Forvaltningssystemer: FELREGs webgrensesnitt, Amplan,
+             :description "Forvaltningssystemer: FELREGs webgrensesnitt, Amplan3,
              Pubreg, Datakvalitetsmonitor Videreutvikling på forsvarets
              applikasjoner nevnt over. Arkitekt og utvikler for forsvarets
              datakvaitetsmonitor. Oppgaver: Senior Javautvikler. Gjennomførte
