@@ -82,7 +82,7 @@ En sammenligning som kanskje er mer nærliggende dersom man kommer fra JavaScrip
 (state: State, action: Action) => State
 ```
 
-Fellestrekket for alle 3 er at de er er [pure functions](https://en.wikipedia.org/wiki/Pure_function).
+Fellestrekket for alle 3 er at de er rene funksjoner ([pure functions](https://en.wikipedia.org/wiki/Pure_function)).
 De er (/skal være) funksjoner som ikke har sideeffekter, inputparametere skal/kan ikke endres av funksjonen og returverdien er utelukkende en funksjon av inputparameterene.
 Slike funksjoner er enkle å teste og lettere å forstå enn funksjoner som muterer eller har andre skumle sideeffekter.
 Ok, det får være nok salgspitch om funksjonelle prinsipper. La oss lage transisjonsfunksjonen.
@@ -117,7 +117,7 @@ Det er ikke gitt at du ønsker å ignorere ugyldige kombinasjoner på denne måt
 
 ### Sideeffekter
 Til nå har ikke transisjonsfunksjonen vår tatt innover seg at vi ønsker jo at det skal skje noe som resultat av at tilstanden endrer seg.
-Når man skifter fra `INITIAL` til `CONNECTING` så ønsker vi jo at "noen" skal sørge for at noen skal faktisk initiere en websocket-forbindelse.
+Når man skifter fra `INITIAL` til `CONNECTING` så ønsker vi jo at "noen" skal sørge for å faktisk initiere en websocket-forbindelse.
 Det å starte en websocket-forbindelse er en sideeffekt, så vi kan jo ikke gjøre det i transisjonsfunksjonen så hvordan får vi gitt beskjed?
 En (ganske lur) måte å gjøre det på er jo å returnere bestillinger på sideeffekter vi ønsker utført fra transisjonsfunksjonen.
 For at transisjonsfunksjonen fortsatt skal være ren, så kan vi returnere disse bestillingene som data.
@@ -224,7 +224,7 @@ export const Effects = unionize({
 });
 ```
 
-Vi ser for oss at før man forsøker å koble opp på nytt igjen, så ønsker vi å kunne vente et gitt antall millisekunder før vi foretar en nytt oppkoblingsforsøk.
+Vi ser for oss at før man forsøker å koble opp på nytt igjen, så ønsker vi å kunne vente et gitt antall millisekunder før vi foretar et nytt oppkoblingsforsøk.
 Siden vi ser for oss at timeouts er noe vi kan ha bruk for i andre sammenhenger også (f.eks puls), definerer vi timeout effekten litt mer generisk her.
 
 #### Transisjoner
@@ -253,7 +253,7 @@ export const transition = (evt: Event, state: State): [State, Effect[]] => State
       States.RECONNECTING({...state, reconnectAttempt: state.reconnectAttempt + 1}),
       [Effects.SCHEDULE_TIMEOUT({
         key: "connect",
-        timeoutMillis: 1000 * state.reconnectAttempt, // lineær backoff enda så lenge
+        timeoutMillis: 1000 * state.reconnectAttempt, // lineær backoff enn så lenge
         onTimeout: Events.ON_CONNECT()
       })]
     ],
@@ -276,7 +276,7 @@ automatisk gjenoppkobling. Vi skulle gjerne forbedret algoritmen for hvor lenge 
 Det er veldig kjekt for klienten å vite at serveren er i live og tilsvarende er det kjekt for serveren å vite
 at klienten er i live. I mange skymiljøer er det ofte automatisk nedkobling dersom det ikke er aktivitet mellom klient og server. Det kan være en smule irriterende å håndtere.
 
-Støtte for ping/pong frames er jo endel av websocket standarden, men det må da initieres fra server og du er avhengig av at serveren din
+Støtte for ping/pong frames er jo en del av websocket standarden, men det må da initieres fra server og du er avhengig av at serveren din
 støtter å lage "ping frames". Dersom du kan det og du er trygg på at alle nettlesere du trenger å støtte har innebygd automatisk pong svar på ping frames, så kan du skippe denne delen.
 
 > Hva med tcp keepalive: [Gammel stackoverflow](https://stackoverflow.com/questions/23238319/websockets-ping-pong-why-not-tcp-keepalive)
@@ -501,7 +501,7 @@ er relativt lett å skanne over tabellen for å se at vi har dekket alle transis
 
 
 ## Klient-API
-Før vi går løs på effekthåndteringen la oss først prøve å lage et grensesnitt for websocket wrapperen vår.
+Før vi går løs på effekthåndteringen la oss først prøve å lage et grensesnitt for websocket-wrapperen vår.
 Vi lager en fil `index.ts` som blir innfallsporten til biblioteket vårt.
 
 ```typescript
@@ -892,7 +892,7 @@ export const calcBackoff = (
 };
 ```
 Vi lager en backoff funksjon som øker eksponensielt. I tillegg legger vi til støy ved å bruke en random verdi vi tar inn som parameter.
-Denne funksjonen er fortsatt veldig naiv, og gir fortsatt ikke veldig god/jevn spredning. Det får bli opp til vordenden biblioteksforfattere
+Denne funksjonen er fortsatt veldig naiv, og gir fortsatt ikke veldig god/jevn spredning. Det får bli opp til vordende biblioteksforfattere
 å lage en bedre implementasjon. Det er fortsatt langt bedre enn vår lineære backoff og det viktig er å illustrere konseptet.
 Ok, så nå har vi en litt bedre backoff funksjon, men den forventer en random seed (ett desimaltall mellom 0 og 1). Hvordan får vi tak i en slik
 random verdi? Vi ønsker jo ikke å tulle til transisjonsfunksjonen vår med sideeffekter, gjør vi vel?
