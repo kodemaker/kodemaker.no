@@ -159,7 +159,7 @@
              \nOppgaver: Utvikler"
              :employer :kodemaker
              :summary "Posten Sporing"
-             :tech [:swift :kotlin :appcode :xcode :android-studio :azure]}
+             :tech [:swift :kotlin :appcode :xcode :android :azure]}
     {:customer "Posten"
              :start "2020-04"
              :end "2020-11"
