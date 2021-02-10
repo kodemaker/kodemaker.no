@@ -1,7 +1,7 @@
 :title Lage ditt eget websocket-bibliotek som en tilstandsmaskin?
 :author magnus
 :tech [:typescript :frontend :funksjonell-programmering]
-:published 2021-02-09
+:published 2021-02-11
 
 :blurb
 
@@ -117,7 +117,7 @@ Det er ikke gitt at du ønsker å ignorere ugyldige kombinasjoner på denne måt
 
 ### Sideeffekter
 Til nå har ikke transisjonsfunksjonen vår tatt innover seg at vi ønsker jo at det skal skje noe som resultat av at tilstanden endrer seg.
-Når man skifter fra `INITIAL` til `CONNECTING` så ønsker vi jo at "noen" skal sørge for å faktisk initiere en websocket-forbindelse.
+Når man skifter fra `INITIAL` til `CONNECTING` så ønsker vi jo at "noen" faktisk initierer en websocket-forbindelse.
 Det å starte en websocket-forbindelse er en sideeffekt, så vi kan jo ikke gjøre det i transisjonsfunksjonen så hvordan får vi gitt beskjed?
 En (ganske lur) måte å gjøre det på er jo å returnere bestillinger på sideeffekter vi ønsker utført fra transisjonsfunksjonen.
 For at transisjonsfunksjonen fortsatt skal være ren, så kan vi returnere disse bestillingene som data.
@@ -731,7 +731,7 @@ dette smartere? Det kunne kanskje også være ønskelig i endel tilfeller å bar
 får forbindelse igjen. Hva tenker du?
 
 ### Testing av effekter
-For å lage tester av effekthåndteringen vår benytter vi oss av en bibliotek for å mocke websockets.
+For å lage tester av effekthåndteringen vår benytter vi oss av et bibliotek for å mocke websockets.
 ```bash
 npm install --save-dev jest-websocket-mock mock-socket
 ```
