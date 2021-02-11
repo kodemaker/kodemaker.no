@@ -17,8 +17,3 @@
              count)
          3)))
 
-(comment
-  (year-range #time/ld "2019-01-01" nil)
-  (year-range nil #time/ld "2019-01-01")
-  (year-range #time/ld "2016-01-01" #time/ld "2019-01-01")
-  (year-range #time/ld "2016-01-01" :ongoing))
